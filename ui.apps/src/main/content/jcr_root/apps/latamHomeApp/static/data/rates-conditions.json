@@ -1,0 +1,15 @@
+{
+  "status":{
+    "code":200,
+    "message":"OK"
+  },
+  "data":{
+    "terms":"Dynamic conditions text"
+  },
+  "links":[
+    {
+      "rel":"self",
+      "href":"http://localhost:9090/ws/api/dynamic-pricing/1.0/fares/condition/3226879F3AA5E1CE?locale=de_de"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "result" : {
+    "name": "Maria Soledad",
+    "tam": true,
+    "pass": {
+      "type": "economic",
+      "card": "vermelho",
+      "title": "Vermelho",
+      "kms": "120.000"
+    }
+  }
+}

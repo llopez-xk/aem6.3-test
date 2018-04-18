@@ -1,0 +1,15 @@
+{
+  "status":{
+    "code":200,
+    "message":"OK"
+  },
+  "data":{
+    "terms":"<div class=\"terminos_y_condiciones\">\n\t<ul>\n    \t<li>Mindestaufenthalt am Reiseziel:&nbsp;7 Tage.</li> \n        <li>Maximalaufenthalt am Reiseziel: 3 Monate.</li>\n        \n\t\t\n       \t\n        \n        \n\t\t\n\t\t\n\t\t\n        <li>F&uuml;r Umbuchungen vor Reiseantritt wird folgende Geb&uuml;hr f&auml;llig: 70 &euro;.</li>\n        \n        \n\t\t\n        \n\t\t<li><strong>Keine &Auml;nderungen nach Reiseantritt erlaubt.</strong></li>\n\t\t<li><strong>Keine R&uuml;ckerstattungen vor Reiseantritt erlaubt.</strong></li>\n\t\t<li><strong>Keine R&uuml;ckerstattungen nach Reiseantritt erlaubt.</strong></li>\n\t\t<li>&Auml;nderungen vorbehalten.</li>\n\t\t<li>Begrenzte Platzverf&uuml;gbarkeit.</li>\n        <li>Inklusive aller Steuern und Geb&uuml;hren.</li>\n        <li>Buchbar: bis 31.08.2013.</li><li>Abflüge zwischen 01.08.2103 und 30.11.2013</li>\n\t\t\n<!--\t -->\n<!--     -->\n<!--      -->\n<!--     -->\n<!--     -->\n<!--     -->\n<!--     -->\n<!--     -->\n<!--     -->\n<!--     -->\n<!--     -->\n<!--     -->\n<!--     -->\n<!--     -->\n<!--     --> \n<!--     -->\n<!--     -->\n<!--      -->\n<!--     -->\n<!--    {*FRASE_MONTO_FINAL_A_MOSTRAR} {*FRASE_MONTO_FINAL_A_MOSTRAR} -->\n<!--    {*FRASE_TAX} {*FRASE_TAX} -->\n<!--    {*FRASE_BLACKOUT} {*FRASE_BLACKOUT} -->\n    </ul>\n</div>\n"
+  },
+  "links":[
+    {
+      "rel":"self",
+      "href":"http://localhost:9090/ws/api/dynamic-pricing/1.0/fares/condition/3226879F3AA5E1CE?locale=de_de"
+    }
+  ]
+}

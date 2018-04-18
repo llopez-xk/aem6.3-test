@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:ClientLibraryFolder"
+    categories="[latam.template.destino-agrupacion]"
+    embed="[latam.dependencies.slick,latam.destination-header.component,latam.encabezado-agrupacion.component,latam.menu-agrupacion.component,latam.banners-tarifas.component,latam.destinos-ofertas.section,latam.seccion-agrupacion.component]"/>

@@ -1,0 +1,1876 @@
+{
+  "status": {
+    "code": 200,
+    "message": "OK"
+  },
+  "data": [
+    {
+      "id": "755F38E20CABD9ADFA21EFD36285F40D",
+      "type": ["PASAJE"],
+      "description": "Esta es una descripcion para el ID 755F38E20CABD9ADFA21EFD36285F40D",
+      "origin": "Lima",
+      "destiny": "La Habana",
+      "iataOrigin": "LIM",
+      "iataDestiny": "LHB",
+      "days": null,
+      "until": 10,
+      "untilMessage": "Últimos 10 días",
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Más tasas de $ 30.000",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "CLP",
+          "amount": "53000.00",
+          "currencyDisplay": "€",
+          "amountDisplay": "53.000",
+          "priceDisplay": "53.000 €€",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": "30000",
+          "taxCurrency": "CLP",
+          "taxAmountDisplay": "30.000",
+          "taxPriceDisplay": "$ 30.000",
+          "cuotaNumber": 10,
+          "cuotaAmount": "12000",
+          "cuotaAmountDisplay": "12.000",
+          "cuotaPriceDisplay": "12.000 €"
+        },
+        "secondary": {
+          "currency": "SOL",
+          "amount": "10970.00",
+          "currencyDisplay": "€",
+          "amountDisplay": "10.970",
+          "priceDisplay": "10.970 €"
+        },
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "€",
+          "amountDisplay": "583",
+          "priceDisplay": "583 €"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "C4831F1FBC79177B55F471DD5A49F22B",
+      "type": ["PASAJE"],
+      "description": "Un lugar lleno de encanto ",
+      "origin": "Santiago de Compostella",
+      "destiny": "Comodoro Rivadavia",
+      "iataOrigin": "SCO",
+      "iataDestiny": "COR",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": 50,
+      "cabin": "B",
+      "cabinDisplay": "Premium Business",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "AR$",
+          "amount": "8970.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "8.970",
+          "priceDisplay": "AR$ 8.970",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": "12518",
+          "taxAmountDisplay": "12.518",
+          "taxPriceDisplay": "$ 12.518",
+          "cuotaNumber": 12,
+          "cuotaAmount": "390.00",
+          "cuotaAmountDisplay": "390",
+          "cuotaPriceDisplay": "AR$ 390"
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions2.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "EA6C1CC2D4010BBB95455020B149B693",
+      "type": ["PASAJE"],
+      "description": null,
+      "origin": "Rosario",
+      "destiny": "La Habana",
+      "iataOrigin": "ROS",
+      "iataDestiny": "LHB",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "AR$",
+          "amount": "7970.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "7.970",
+          "priceDisplay": "AR$ 7.970",
+          "lastAmount": "9970",
+          "lastAmountDisplay": "9.970",
+          "lastPriceDisplay": "AR$ 9.970",
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "C536FDE1402DD5EE8A42D4011A2F0E00",
+      "type": ["PASAJE"],
+      "description": null,
+      "origin": "Santiago de chile",
+      "destiny": "Iquique",
+      "iataOrigin": "SCL",
+      "iataDestiny": "IQU",
+      "days": null,
+      "until": 3,
+      "untilMessage": "Últimos 3 días",
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "OW",
+        "flightTypeDisplay": "Solo ida",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Más tasas de $ 12.518",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "CLP",
+          "amount": "79668.00",
+          "currencyDisplay": "$",
+          "amountDisplay": "79.668",
+          "priceDisplay": "$ 79.668",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": "12518",
+          "taxCurrency": "CLP",
+          "taxAmountDisplay": "12.518",
+          "taxPriceDisplay": "$ 12.518",
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions2.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "C4E2266CD8FA221422C738013C8C71F3",
+      "type": ["CANJE", "DINERO"],
+      "description": null,
+      "origin": "Santiago de chile",
+      "destiny": "Ciudad de México",
+      "iataOrigin": "SCL",
+      "iataDestiny": "CMX",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "KMS",
+          "amount": "15000",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "15.000",
+          "priceDisplay": "15.000 kms.",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": {
+          "currency": "+AR$",
+          "amount": "1200.00",
+          "currencyDisplay": "+AR$",
+          "amountDisplay": "1.200",
+          "priceDisplay": "+AR$ 1.200"
+        },
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "EE75F81B35EE013D56756AEF89277C21",
+      "type": ["CANJE"],
+      "description": null,
+      "origin": "Rosario",
+      "destiny": "La Habana",
+      "iataOrigin": "LIM",
+      "iataDestiny": "LHB",
+      "days": null,
+      "until": 3,
+      "untilMessage": "Últimos 3 días",
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Más tasas de US$ 70",
+        "discountTitle": "Mega Descuento !!!",
+        "discountText": "Solo Mastercard LanPass",
+        "discount": null,
+        "primary": {
+          "currency": "KMS",
+          "amount": "999999",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "999.999",
+          "priceDisplay": "999.999 kms.",
+          "kms": "1000",
+          "lastAmount": "1300",
+          "lastAmountDisplay": "1.300",
+          "lastPriceDisplay": "1.300 kms.",
+          "taxAmount": "70",
+          "taxCurrency": "USD",
+          "taxAmountDisplay": "70",
+          "taxPriceDisplay": "US$ 70",
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": null
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "6FE88A43A0CE6CF5DCB33465E6F51377",
+      "type": ["HOTEL"],
+      "description": "Válido para dos personas en habitación doble en <strong>hotel Bandeirantes</strong> 3*",
+      "origin": null,
+      "destiny": "Puerto Montt",
+      "iataOrigin": null,
+      "iataDestiny": "PMT",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": null,
+        "flightTypeDisplay": null,
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final por persona",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "CLP",
+          "amount": "128668.00",
+          "currencyDisplay": "$",
+          "amountDisplay": "128.668",
+          "priceDisplay": "$ 128.668",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": {
+          "currency": "GBP",
+          "amount": "1000",
+          "currencyDisplay": "₤",
+          "amountDisplay": "1,000.00",
+          "priceDisplay": "₤ 1,000.00",
+          "kms": null,
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": {
+        "hotelName": "hotel sierra mike",
+        "hotelCategory": 5,
+        "hotelDaysQuantity": 5,
+        "hotelNightsQuantity": 4,
+        "stayDisplay": "5 días / 4 noches"
+      },
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "73B8036DB69221108F01263A8087BFB6",
+      "type": ["AUTO"],
+      "description": "Tarifa <em>válida entre el 17 de febrero y el 14 de julio de 2016</em>. Valores sujetos a cambio sin previo aviso.",
+      "origin": null,
+      "destiny": "Puerto Montt",
+      "iataOrigin": null,
+      "iataDestiny": "PMT",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": null,
+      "cabinDisplay": null,
+      "flight": {
+        "flightType": null,
+        "flightTypeDisplay": null,
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Más tasas de US$ 12",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "CLP",
+          "amount": "128668.00",
+          "currencyDisplay": "$",
+          "amountDisplay": "128.668",
+          "priceDisplay": "$ 128.668",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": "12",
+          "taxCurrency": "USD",
+          "taxAmountDisplay": "12",
+          "taxPriceDisplay": "US$ 12",
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": {
+        "carDaysRent": 3,
+        "daysDisplay": "3 días de arriendo"
+      },
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "351CD1CC5098B7893767915CA8B1AD9E",
+      "type": ["PASAJE", "HOTEL", "AUTO"],
+      "description": "Válido entre el 17 de noviembre y el 14 de diciembre de 2016. Valores sujetos a cambio sin previo aviso.",
+      "origin": null,
+      "destiny": "Puerto Montt",
+      "iataOrigin": "LIM",
+      "iataDestiny": "LHB",
+      "days": 3,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "programDays": 2,
+      "programDaysDisplay": "2 Días",
+      "packageDescription": "Programa valido 15 <strong>personas</strong> por habitación single-",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final por persona",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "CLP",
+          "amount": "128668.00",
+          "currencyDisplay": "$",
+          "amountDisplay": "128.668",
+          "priceDisplay": "$ 128.668",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": {
+          "currency": "AU$",
+          "amount": "1,668.00",
+          "currencyDisplay": "AU$",
+          "amountDisplay": "1,668.00",
+          "priceDisplay": "US$ 1,668.00"
+        },
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": {
+        "hotelName": "hotel sierra mike",
+        "hotelCategory": 5,
+        "hotelDaysQuantity": 5,
+        "hotelNightsQuantity": 4,
+        "stayDisplay": "6 días / 5 noches"
+      },
+      "car": {
+        "carDaysRent": 5,
+        "daysDisplay": "5 días de arriendo"
+      },
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": ["PASAJE"],
+      "description": null,
+      "origin": "Santiago de Chile",
+      "destiny": "Medellín",
+      "iataOrigin": "SCL",
+      "iataDestiny": "MDE",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "CLP",
+          "amount": "53000.00",
+          "currencyDisplay": "$",
+          "amountDisplay": "53.000",
+          "priceDisplay": "$ 53.000",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": {
+          "currency": "US$",
+          "amount": "1668.00",
+          "currencyDisplay": "US$",
+          "amountDisplay": "1.668",
+          "priceDisplay": "US$ 1.668"
+        },
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "type": ["PASAJE", "HOTEL", "AUTO"],
+      "description": "Programa válido para dos personas en habitación doble",
+      "origin": "Medellín",
+      "destiny": "Santiago de Chile",
+      "iataOrigin": "MDE",
+      "iataDestiny": "SCL",
+      "days": 6,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "programDaysDisplay": "2 Días",
+      "programDaysDisplay": "2 Días",
+      "packageDescription": "Pasajes + Traslados+ 7 noches en <strong>Hotel Memories Varadero</strong> 3* + Sistema Todo Incluido.",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "CLP",
+          "amount": "53000.00",
+          "currencyDisplay": "$",
+          "amountDisplay": "53.000",
+          "priceDisplay": "$ 53.000",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": {
+          "currency": "SOL",
+          "amount": "10970.00",
+          "currencyDisplay": "S./",
+          "amountDisplay": "10.970",
+          "priceDisplay": "S./ 10.970"
+        },
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": {
+        "hotelName": "hotel sierra mike",
+        "hotelCategory": 5,
+        "hotelDaysQuantity": 5,
+        "hotelNightsQuantity": 4,
+        "stayDisplay": "4 días / 3 noches"
+      },
+      "car": {
+        "carDaysRent": 3,
+        "daysDisplay": "3 días de arriendo"
+      },
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "type": ["CANJE"],
+      "description": null,
+      "origin": "Santiago de Chile",
+      "destiny": "Madrid",
+      "iataOrigin": "LIM",
+      "iataDestiny": "LHB",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "KMS",
+          "amount": "35000",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "35.000",
+          "priceDisplay": "35.000 kms.",
+          "kms": "1000",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "type": ["CANJE"],
+      "description": null,
+      "origin": "Santiago de Chile",
+      "destiny": "Frankfurt",
+      "iataOrigin": "SCL",
+      "iataDestiny": "FRK",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Más tasas de US$ 70",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "KMS",
+          "amount": "50000",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "50.000",
+          "priceDisplay": "50.000 kms.",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": "70",
+          "taxCurrency": "USD",
+          "taxAmountDisplay": "70",
+          "taxPriceDisplay": "US$ 70",
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "type": ["CANJE"],
+      "description": null,
+      "origin": "Santiago de Chile",
+      "destiny": "Rio de Janeiro",
+      "iataOrigin": "SCL",
+      "iataDestiny": "RIO",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "KMS",
+          "amount": "6500",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "6.500",
+          "priceDisplay": "6.500 kms.",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "type": ["CANJE"],
+      "description": null,
+      "origin": "Santiago de Chile",
+      "destiny": "Buenos Aires",
+      "iataOrigin": "SCL",
+      "iataDestiny": "BUA",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "KMS",
+          "amount": "3800",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "3.800",
+          "priceDisplay": "3.800 kms.",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "type": ["CANJE"],
+      "description": null,
+      "origin": "Santiago de Chile",
+      "destiny": "Lima",
+      "iataOrigin": "SCL",
+      "iataDestiny": "LIM",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "KMS",
+          "amount": "5900",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "5.900",
+          "priceDisplay": "5.900 kms.",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "type": ["CANJE"],
+      "description": null,
+      "origin": "Santiago de Chile",
+      "destiny": "Sao Paulo",
+      "iataOrigin": "SCL",
+      "iataDestiny": "SAO",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "KMS",
+          "amount": "8700",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "8.700",
+          "priceDisplay": "8.700 kms.",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "type": ["CANJE"],
+      "description": "Pasaje + Traslado + HOTEL Bandeirantes 3* + Desayuno",
+      "origin": "Santiago de Chile",
+      "destiny": "Sao Paulo",
+      "iataOrigin": "SCL",
+      "iataDestiny": "SAO",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "KMS",
+          "amount": "6900",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "6.900",
+          "priceDisplay": "6.900 kms.",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "type": ["CANJE"],
+      "description": null,
+      "origin": "Santiago de Chile",
+      "destiny": "Sao Paulo",
+      "iataOrigin": "SCL",
+      "iataDestiny": "SAO",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": "Descuento exclusivo para clientes con tarjeta BBVA Banco Francés",
+        "discountText": "El descuento se vera reflejado en el paso 3 del proceso de compra y se aplicará solo sobre la tarifa base seleccionada en naranja dentro de la matriz de precios.",
+        "discount": "20",
+        "primary": {
+          "currency": "KMS",
+          "amount": "8000",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "8.000",
+          "priceDisplay": "8.000 kms.",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "type": ["CANJE"],
+      "description": "Pasaje + Traslado + HOTEL Posada Pontal da Ferradura 4* + Desayuno",
+      "origin": "Santiago de Chile",
+      "destiny": "Sao Paulo",
+      "iataOrigin": "SCL",
+      "iataDestiny": "SAO",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "KMS",
+          "amount": "7000",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "7.000",
+          "priceDisplay": "7.000 kms.",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "type": ["PASAJE"],
+      "description": null,
+      "origin": "Lima",
+      "destiny": "La Habana",
+      "iataOrigin": "LIM",
+      "iataDestiny": "LHB",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Más tasas de $ 12.518",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "US$",
+          "amount": "79668.00",
+          "currencyDisplay": "US$",
+          "amountDisplay": "79.668",
+          "priceDisplay": "US$ 79.668",
+          "lastAmount": "1000",
+          "lastAmountDisplay": "1.000",
+          "lastPriceDisplay": "$ 1.000",
+          "taxAmount": "12518",
+          "taxCurrency": "CLP",
+          "taxAmountDisplay": "12.518",
+          "taxPriceDisplay": "$ 12.518",
+          "cuotaNumber": 10,
+          "cuotaAmount": "12000",
+          "cuotaAmountDisplay": "12.000",
+          "cuotaPriceDisplay": "$ 12.000"
+        },
+        "secondary": {
+          "currency": "SOL",
+          "amount": "10970.00",
+          "currencyDisplay": "S./",
+          "amountDisplay": "10.970",
+          "priceDisplay": "S./ 10.970"
+        },
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "type": ["PASAJE"],
+      "description": null,
+      "origin": "Rosario",
+      "destiny": "La Habana",
+      "iataOrigin": "ROS",
+      "iataDestiny": "LHB",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "AR$",
+          "amount": "8970.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "8.970",
+          "priceDisplay": "AR$ 8.970",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": 12,
+          "cuotaAmount": "3900",
+          "cuotaAmountDisplay": "3.900",
+          "cuotaPriceDisplay": "AR$ 3.900"
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "type": ["PASAJE"],
+      "description": null,
+      "origin": "Rosario",
+      "destiny": "La Habana",
+      "iataOrigin": "ROS",
+      "iataDestiny": "LHB",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "AR$",
+          "amount": "8970.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "8.970",
+          "priceDisplay": "AR$ 8.970",
+          "lastAmount": "12970",
+          "lastAmountDisplay": "12.970",
+          "lastPriceDisplay": "AR$ 12.970",
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "type": ["CANJE"],
+      "description": null,
+      "origin": "Santiago de Chile",
+      "destiny": "Sao Paulo",
+      "iataOrigin": "SCL",
+      "iataDestiny": "SAO",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "KMS",
+          "amount": "7100",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "7.100",
+          "priceDisplay": "7.100 kms.",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": null,
+          "taxCurrency": null,
+          "taxAmountDisplay": null,
+          "taxPriceDisplay": null,
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": null,
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "type": ["CANJE", "DINERO"],
+      "description": "Descuento exclusivo para clientes con tarjeta BBVA Banco Francés",
+      "origin": "Santiago de chile",
+      "destiny": "Ciudad de México",
+      "iataOrigin": "LIM",
+      "iataDestiny": "LHB",
+      "days": null,
+      "until": null,
+      "untilMessage": null,
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Más tasas de US$ 20",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": "30",
+        "primary": {
+          "currency": "KMS",
+          "amount": "18000",
+          "currencyDisplay": "kms.",
+          "amountDisplay": "18.000",
+          "priceDisplay": "18.000 kms.",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": "20",
+          "taxCurrency": "USD",
+          "taxAmountDisplay": "20",
+          "taxPriceDisplay": "US$ 20",
+          "cuotaNumber": null,
+          "cuotaAmount": null,
+          "cuotaAmountDisplay": null,
+          "cuotaPriceDisplay": null
+        },
+        "secondary": {
+          "currency": "+AR$",
+          "amount": "1200.00",
+          "currencyDisplay": "+AR$",
+          "amountDisplay": "1.200",
+          "priceDisplay": "+AR$ 1.200"
+        },
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": null,
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "type": ["PASAJE", "HOTEL"],
+      "description": "Pasaje + Traslado + HOTEL Posada Pontal da Ferradura 4* + Desayuno",
+      "origin": "Lima",
+      "destiny": "Puerto Montt",
+      "iataOrigin": "LIM",
+      "iataDestiny": "PTM",
+      "days": 3,
+      "until": 10,
+      "untilMessage": "Últimos 10 días",
+      "language": "ES-CL",
+      "stock": null,
+      "cabin": "Y",
+      "cabinDisplay": "Economy",
+      "flight": {
+        "flightType": "RT",
+        "flightTypeDisplay": "Ida y vuelta",
+        "routeType": null,
+        "routeTypeDisplay": null
+      },
+      "pricing": {
+        "fareType": "PF",
+        "fareTypeDisplay": "Precio final",
+        "discountTitle": null,
+        "discountText": null,
+        "discount": null,
+        "primary": {
+          "currency": "CLP",
+          "amount": "128668.00",
+          "currencyDisplay": "$",
+          "amountDisplay": "128.668",
+          "priceDisplay": "$ 128.668",
+          "lastAmount": null,
+          "lastAmountDisplay": null,
+          "lastPriceDisplay": null,
+          "taxAmount": 30000,
+          "taxCurrency": "CLP",
+          "taxAmountDisplay": "30.000",
+          "taxPriceDisplay": "$ 30.000",
+          "cuotaNumber": 10,
+          "cuotaAmount": "12000",
+          "cuotaAmountDisplay": "12.000",
+          "cuotaPriceDisplay": "12.000"
+        },
+        "secondary": {
+          "currency": "US$",
+          "amount": "1668.00",
+          "currencyDisplay": "US$",
+          "amountDisplay": "1.668",
+          "priceDisplay": "US$ 1.668"
+        },
+        "tertiary": {
+          "currency": "ARS",
+          "amount": "583.00",
+          "currencyDisplay": "AR$",
+          "amountDisplay": "583",
+          "priceDisplay": "AR$ 583"
+        }
+      },
+      "hotel": {
+        "hotelName": "hotel sierra mike",
+        "hotelCategory": 5,
+        "hotelDaysQuantity": 5,
+        "hotelNightsQuantity": 4,
+        "stayDisplay": "4 días / 3 noches"
+      },
+      "car": null,
+      "availableMonths": [],
+      "links": [
+        {
+          "rel": "conditions",
+          "href": "/static/latam/data/rates-conditions.json"
+        },
+        {
+          "rel": "purchase",
+          "href": "#purchase"
+        }
+      ]
+    }
+  ]
+}

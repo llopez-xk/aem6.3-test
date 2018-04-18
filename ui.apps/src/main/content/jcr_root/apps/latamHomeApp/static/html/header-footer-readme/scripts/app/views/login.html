@@ -1,0 +1,122 @@
+<div class="Login-form">
+  <div class="LoginForm">
+    <h3 class="LoginForm-title visible-xs">Accede a tu cuenta LAN o LANPASS</h3>
+    <form novalidate class="LoginForm-form form-inline">
+      <div class="LoginForm-group form-group">
+        <label class="sr-only" for="user">Usuario / LANPASS</label>
+        <input type="text" class="LoginForm-input form-control" id="user" placeholder="Usuario / LANPASS" ng-model="loginUser" required>
+      </div>
+      <div class="LoginForm-group form-group">
+        <label class="sr-only" for="password">Password</label>
+        <input type="password" class="LoginForm-input form-control" id="password" placeholder="Clave" ng-model="loginPassword" required>
+      </div>
+      <a href="#" role="button" type="submit" class="LoginForm-btn LoginForm-btnSubmit btn-pfija" title="Login Form" ng-click="submitLoginForm()">
+        <span class="LoginForm-btnTxt LoginForm-btnTxtSubmit btn-text">Entrar</span>
+        <span class="LoginForm-btnCaret icon-caret-right icon-xsmall hidden-xs"></span>
+      </a>
+      <div class="LoginForm-actions">
+        <p class="LoginForm-actionsText" ng-class="{'LoginForm-actionsText--inverse': isInverse}">Olvidaste tu <a href="#" class="LoginForm-actionsLink LoginForm-actionsLink--forgot" ng-class="{'LoginForm-actionsLink--inverse': isInverse}" title="Ir al proceso para recuperar usuario">usuario</a> o <a href="#" class="LoginForm-actionsLink LoginForm-actionsLink--forgot" ng-class="{'LoginForm-actionsLink--inverse': isInverse}" title="Ir al proceso para recuperar clave">clave</a></p>
+      </div>
+      <div class="LoginForm-actionsEnroll" ng-class="{'LoginForm-actionsEnroll--inverse': isInverse}">
+        <p class="LoginForm-actionsEnrollTxt hidden-md hidden-lg" ng-class="{'LoginForm-actionsEnrollTxt--inverse': isInverse}">¿Aún no eres socio?</p>
+        <a href="#" title="ir a crear una cuenta">Inscribete</a>
+      </div>
+    </form>
+    <div class="LoginForm-swipeUp visible-xs">
+      <svg class="LoginForm-swipeUpBtn visible-xs" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="160 390.2 51 18.8" enable-background="new 160 390.2 51 18.8" xml:space="preserve">
+        <rect x="160" y="390.2" fill="#CCCCCC" width="51" height="2.3"/>
+        <rect x="160" y="398.5" fill="#CCCCCC" width="51" height="2.3"/>
+        <rect x="160" y="406.8" fill="#CCCCCC" width="51" height="2.3"/>
+      </svg>
+    </div>
+  </div>
+</div>
+<div class="Login-launcher">
+  <span class="icon-small icon-user-positive Login-launcherIcon"></span>
+  <div class="Login-launcherInfo" ng-class="{ 'Login-launcherInfo--economic' : session.pass.type != 'business'}">
+    Hola <span class="Login-launcherName">{{ session.name }}</span><br />
+    <span class="Login-launcherKms" ng-hide="session.pass.type != 'business'">Tienes {{ session.pass.kms }} KMS</span>
+  </div>
+</div>
+<div class="Login-profile Login-profile--{{ session.pass.type }}">
+  <div class="Login-header Login-header--{{ session.pass.card }} Login-header--{{ session.pass.type }}">
+    <div class="LoginProfile-block">
+      <div class="LoginProfile-header">
+        <div class="Login-type LoginProfile-blockColumn visible-xs" ng-hide="session.pass.type != 'economic'">
+          <span class="Login-card icon-medium icon-user-positive Login-card--economic"></span>
+          <span class="Login-title Login-title--{{ session.pass.card }} Login-title--{{ session.pass.type }}">Hola {{ session.name }}</span>
+        </div>
+        <div class="Login-type LoginProfile-blockColumn LoginProfile-blockColumn--4 visible-xs" ng-hide="session.pass.type != 'premium'">
+          <span class="Login-card icon-medium" ng-class="session.tam ? 'icon-tam-card socio-' + session.pass.card : 'icon-lanpass socio-' + session.pass.card"></span>
+          <span class="Login-title Login-title--{{ session.pass.card }}">{{ session.pass.title }}</span>
+        </div>
+        <div class="Login-type LoginProfile-blockColumn LoginProfile-blockColumn--3" ng-hide="session.pass.type != 'business'">
+          <span class="Login-card icon-medium" ng-class="session.tam ? 'icon-tam-card socio-' + session.pass.card : 'icon-lanpass socio-' + session.pass.card"></span>
+          <span class="Login-title Login-title--{{ session.pass.card }}">{{ session.pass.title }}</span>
+        </div>
+      </div>
+
+      <div class="Login-kms LoginProfile-blockColumn" ng-class="session.pass.type == 'business' ? 'LoginProfile-blockColumn--3' : 'LoginProfile-blockColumn--5'" ng-hide="session.pass.type == 'economic'">
+        <span class="Login-name">Hola {{ session.name }}</span>
+        <span class="Login-have">Tienes</span> <span class="Login-number">{{ session.pass.kms }}</span>
+        <span class="Login-unit" ng-hide="session.tam">KMS</span>
+        <span class="Login-unit" ng-hide="!session.tam">pontos Multiplus</span>
+      </div>
+      <div class="Login-account LoginProfile-blockColumn" ng-class="session.pass.type == 'business' ? 'LoginProfile-blockColumn--2' : 'LoginProfile-blockColumn--3'" ng-hide="session.pass.type == 'economic'">
+        <a class="Login-accountLink" href="">Ver estado de cuenta</a>
+      </div>
+    </div>
+  </div>
+  <div class="Login-body" ng-class="{'Login-body--economic' : session.pass.type == 'economic'}">
+    <div class="LoginProfile-block l-list-container">
+      <div class="LoginProfile-blockColumn" ng-class="session.pass.type == 'business' ? 'LoginProfile-blockColumn--3' : 'LoginProfile-blockColumn--5'" ng-hide="session.pass.type == 'economic'">
+        <div class="Login-box" ng-class="{'Login-box--kms' : session.pass.type == 'business'}">
+          <h2 class="Login-headLineH2">Gestiona tus kms.</h2>
+          <ul class="Login-unorderedList">
+            <li class="Login-unorderedItem"><a class="Login-unorderedLink" href="">Suma tus kms. pendientes <span class="icon-caret-right icon-xsmall hidden-lg Login-unorderedIcon"></span></a></li>
+            <li class="Login-unorderedItem"><a class="Login-unorderedLink" href="">Compra más kms. <span class="icon-caret-right icon-xsmall hidden-lg Login-unorderedIcon"></span></a></li>
+            <li class="Login-unorderedItem"><a class="Login-unorderedLink" href="">Transfiere kil&oacute;metros <span class="icon-caret-right icon-xsmall hidden-lg Login-unorderedIcon"></span></a></li>
+            <li class="Login-unorderedItem"><a class="Login-unorderedLink" href="">Cambios y devoluciones <span class="icon-caret-right icon-xsmall hidden-lg Login-unorderedIcon"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class=" LoginProfile-blockColumn LoginProfile-blockColumn--3" ng-hide="session.pass.type != 'business'">
+        <div class="Login-box Login-box--business">
+          <h2 class="Login-headLineH2">Upgrade de cabina</h2>
+          <ul class="Login-unorderedList">
+            <li class="Login-unorderedItem"><a class="Login-unorderedLink" href="">Postula a un Upgrade <span class="icon-caret-right icon-xsmall hidden-lg Login-unorderedIcon"></span></a></li>
+            <li class="Login-unorderedItem"><a class="Login-unorderedLink" href="">Revisa tu postulaci&oacute;n <span class="icon-caret-right icon-xsmall hidden-lg Login-unorderedIcon"></span></a></li>
+            <li class="Login-unorderedItem"><a class="Login-unorderedLink" href="">Estado de cuenta de upgrade <span class="icon-caret-right icon-xsmall hidden-lg Login-unorderedIcon"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="LoginProfile-blockColumn" ng-class="session.pass.type == 'economic' ? 'LoginProfile-blockColumn--8' : (session.pass.type == 'business' ? 'LoginProfile-blockColumn--2' : 'LoginProfile-blockColumn--3')">
+        <div class="Login-box Login-config">
+          <h3 class="Login-headLineH3">
+            <span ng-hide="session.pass.type != 'economic'">Gestiona tu cuenta</span>
+            <span ng-hide="session.pass.type == 'economic'">Configuraci&oacute;n</span>
+          </h3>
+          <ul class="Login-unorderedList" ng-hide="session.pass.type != 'business'">
+            <li class="Login-unorderedItem"><a class="Login-unorderedLink" href="">Actualizar datos <span class="icon-caret-right icon-xsmall hidden-lg Login-unorderedIcon"></span></a></li>
+            <li class="Login-unorderedItem"><a class="Login-unorderedLink" href="">Tus preferencias <span class="icon-caret-right icon-xsmall hidden-lg Login-unorderedIcon"></span></a></li>
+          </ul>
+          <ul class="Login-unorderedList" ng-hide="session.pass.type == 'business'">
+            <li class="Login-unorderedItem"><a class="Login-unorderedLink" href="">Mi perfil <span class="icon-caret-right icon-xsmall hidden-lg Login-unorderedIcon"></span></a></li>
+            <li class="Login-unorderedItem"><a class="Login-unorderedLink" href="">Preferencias de contacto <span class="icon-caret-right icon-xsmall hidden-lg Login-unorderedIcon"></span></a></li>
+            <li class="Login-unorderedItem"><a class="Login-unorderedLink" href="">Intereses de viaje <span class="icon-caret-right icon-xsmall hidden-lg Login-unorderedIcon"></span></a></li>
+          </ul>
+          <div class="Login-logout" ng-class="{ 'Login-logout--economic' : session.pass.type == 'economic'}">
+            <a class="Login-logoutLink" ng-class="{ 'Login-logoutLink--economic' : session.pass.type == 'economic'}" href="#">Cerrar sesi&oacute;n <span class="icon-close-negative icon-xsmall hidden-md hidden-lg Login-logoutIcon"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="LoginForm-swipeUp visible-xs">
+    <svg class="LoginForm-swipeUpBtn visible-xs" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="160 390.2 51 18.8" enable-background="new 160 390.2 51 18.8" xml:space="preserve">
+        <rect x="160" y="390.2" fill="#CCCCCC" width="51" height="2.3"/>
+        <rect x="160" y="398.5" fill="#CCCCCC" width="51" height="2.3"/>
+        <rect x="160" y="406.8" fill="#CCCCCC" width="51" height="2.3"/>
+      </svg>
+  </div>
+</div>

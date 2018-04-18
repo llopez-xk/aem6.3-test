@@ -1,0 +1,12 @@
+{
+  "result" : {
+    "name": "Maria Soledad",
+    "tam": false,
+    "pass": {
+      "type": "business",
+      "card": "comodoro",
+      "title": "Comodoro",
+      "kms": "120.000"
+    }
+  }
+}

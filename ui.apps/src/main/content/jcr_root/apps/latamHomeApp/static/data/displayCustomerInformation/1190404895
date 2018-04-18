@@ -1,0 +1,17 @@
+{
+    "customerInformation" : {
+        "firstName":"1190404895", 
+        "lastName":"", 
+        "gender":"M", 
+        "pointsBalance":0,
+        "isFid": true, 
+        "isEBuyer": true,
+        "isMultiplus": true,
+        "loyaltyTier": ""
+    }, 
+    "serviceStatus" : {
+        "code":0, 
+        "message":"", 
+        "nativeMessage":""
+    }
+S

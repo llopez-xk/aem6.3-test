@@ -1,0 +1,8 @@
+#base=js
+
+hideParsys.js
+seoTwitter.js
+latamFooterFields.js
+hideFacebookIDOption.js
+loginLanTam.js
+dialogMandatoryAsterisk.js

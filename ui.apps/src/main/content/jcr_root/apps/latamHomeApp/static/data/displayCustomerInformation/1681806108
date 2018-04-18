@@ -1,0 +1,17 @@
+{
+    "customerInformation" : {
+        "firstName":"Juliana", 
+        "lastName":"Andrade", 
+        "gender":"F", 
+        "pointsBalance":700,
+        "isFid": true, 
+        "isEBuyer": false,
+        "isMultiplus": false,
+        "loyaltyTier": "LEGEND"
+    }, 
+    "serviceStatus" : {
+        "code":0, 
+        "message":"", 
+        "nativeMessage":""
+    }
+}

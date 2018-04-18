@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:ClientLibraryFolder"
+    categories="[latam.template.home]"
+    embed="[latam.dependencies.slick,latam.header-footer,latam.cross,latam.header.latam.page,latam.footer.latam.page,latam.contingency-message.component,latam.slider.component,latam.bookingbox.component,latam.banner-cobranding.component,latam.banners-tarifas.component,latam.find-your-experience.component,latam.acceso-minisitios.component,latam.agenda-positiva.component,latam.informacion-ayuda.component]"/>

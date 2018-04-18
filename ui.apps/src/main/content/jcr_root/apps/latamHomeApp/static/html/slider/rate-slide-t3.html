@@ -1,0 +1,50 @@
+<div class="HomeSlider-container">
+    <div class="container">
+        <div class="HomeSlider-zone HomeSlider-zone--top">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-zone--innerTop HomeSlider-tableCell {{ ::titleAlign }}">
+                                <h3 class="HomeSlider-title" ng-class="::{ 'HomeSlider-title--dark': titleDark }">
+                                    {{ ::title }}
+                  <span class="HomeSlider-price" ng-hide="(!rate.pricing.primary.amount && !amount)">
+                    <span class="HomeSlider-priceCurrency" ng-if="rate.pricing.primary.currencyDisplay !== '€' && rate.pricing.primary.currency !== 'KMS'" ng-bind="rate.pricing.primary.currencyDisplay || currency"></span>
+                    <span class="HomeSlider-priceAmount" ng-bind="(rate.pricing.primary.amountDisplay || amount)"></span>
+                    <span class="HomeSlider-priceCurrency" ng-if="rate.pricing.primary.currencyDisplay === '€' || rate.pricing.primary.currency === 'KMS'" ng-bind="rate.pricing.primary.currencyDisplay || currency"></span>
+                  </span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="HomeSlider-zone HomeSlider-zone--middle">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-description HomeSlider-zone--middle HomeSlider-tableCell {{ ::descriptionAlign }}" ng-class="::{ 'HomeSlider-description--dark': titleDark }">
+                                {{ ::description }} <a class="HomeSlider-conditions" href="{{ ::rate.link }}" ng-if="::rateConditions" ng-bind="::rateConditions"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="HomeSlider-zone HomeSlider-zone--bottom">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-tableCell {{ ::buttonAlign }}">
+                                <a href="{{ ::buttonLink }}" class="HomeSlider-button"><span class="HomeSlider-buttonText">{{ ::buttonText }}</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

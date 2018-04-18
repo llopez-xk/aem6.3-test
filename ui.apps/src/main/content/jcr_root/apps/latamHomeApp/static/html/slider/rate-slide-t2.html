@@ -1,0 +1,46 @@
+<div class="HomeSlider-container">
+    <div class="container">
+        <div class="HomeSlider-zone HomeSlider-zone--top">
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-md-offset-1">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-zone--innerTop HomeSlider-tableCell {{ ::logoAlign }}">
+                                <picture>
+                                    <source media="(min-width: 768px)" ng-srcset="{{ ::logoDesktop }}">
+                                    <source media="(max-width: 767px)" ng-srcset="{{ ::logoMobile }}">
+                                    <img ng-src="{{ ::logoMobile }}" alt="{{ ::logoAlt }}" class="HomeSlider-logo" />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="HomeSlider-zone HomeSlider-zone--middle">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-description HomeSlider-zone--middle HomeSlider-tableCell {{ ::descriptionAlign }}" ng-class="::{ 'HomeSlider-description--dark': titleDark }" ng-bind="::description"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="HomeSlider-zone HomeSlider-zone--bottom">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-tableCell {{ ::buttonAlign }}">
+                                <a ng-href="{{ ::buttonLink }}" class="HomeSlider-button"><span class="HomeSlider-buttonText" ng-bind="::buttonText"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

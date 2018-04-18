@@ -1,0 +1,26 @@
+<!--/*
+* Mensajeria Latam
+* -----------------------------------------------------------------------------
+* CHANGE HISTORY
+* -----------------------------------------------------------------------------
+* Version | Date       | Developer      | Changes
+* 1.0.0   | 28/04/2016 | Diego Garcia   | Initial Creation
+* -----------------------------------------------------------------------------
+*/-->
+
+<section class="l-section">
+    <div class="Messaging">
+        <div class="Messaging-msgico col-md-2 col-xs-height hidden-xs hidden-sm">
+            <div class="Messaging-icon icon-large  icon-regular-ife023"></div>
+        </div>
+        <div class="Messaging-msgdesc col-md-10 col-xs-height">
+            <div class="Messaging-contentTitle">${config.test}:${config.algo}
+                <span class="Messaging-icon Messaging-icon--internal icon-regular-ife023 "></span>
+                <h3 class="Messaging-title">${ mergedProperties.title }</h3>
+            </div>
+            <div class="Messaging-richtext">
+                ${ mergedProperties.paragraph @ context='html' }
+            </div>
+        </div>
+    </div>
+</section>

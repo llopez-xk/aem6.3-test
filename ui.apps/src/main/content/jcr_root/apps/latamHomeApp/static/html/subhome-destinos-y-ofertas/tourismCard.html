@@ -1,0 +1,29 @@
+<div class="TourismCard">
+    <div class="TourismCard-box">
+        <div id="TourismCard-collapsible" class="TourismCard-collapsible" aria-hidden="false">
+            <div class="TourismCard-card ">
+                <div class="TourismCard-bannerCard" ng-style="::{'background-color': content.color}" >
+                    <div class="TourismCard-iconBox">
+                        <span class="TourismCard-icon {{:: content.icon}} icon-xlarge-rounded" ng-style="::{'color': content.color}"></span>
+                    </div>
+                </div>
+                <div class="TourismCard-content">
+                    <span class="TourismCard-category">( {{:: content.category}} )</span>
+                    <span class="TourismCard-place" ng-style= "{'color': content.color}" ng-bind="::content.place_name"></span>
+                    <div class="TourismCard-text richtext" ng-bind-html="::content.description"></div>
+                    <a class="TourismCard-link" ng-href="{{::link.url}}" ng-repeat="link in ::content.links">
+          <span class="icon-link TourismCard-iconSmall" ng-style="::{'color': content.color}">
+            <span class="TourismCard-iconLink"></span>
+          </span>
+                        {{:: link.text }}
+                    </a>
+                    <a class="TourismCard-phone"  ng-href="tel:{{::tel}}" title="{{:: tel}}" ng-repeat="tel in ::content.tels"><span class="icon-phone TourismCard-iconSmall" ng-style= "{'color': content.color}" ></span><span ng-bind="::tel"></span></a>
+                    <div class="TourismCard-tags">
+                        <span class="TourismCard-tag" ng-style="::{'background-color': content.color}" ng-repeat="tag in ::content.tags" ng-bind="::tag"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="TourismCard-expandButton" aria-controls="TourismCard-collapsible" aria-expanded="true"><span class="icon icon-chevron-down icon-xsmall"></span></button>
+</div>

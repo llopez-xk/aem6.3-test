@@ -1,0 +1,6 @@
+#base=js
+
+external/semantic/semantic.min.js
+external/underscore/underscore-min.js
+external/underscore-string/underscore.string.min.js
+

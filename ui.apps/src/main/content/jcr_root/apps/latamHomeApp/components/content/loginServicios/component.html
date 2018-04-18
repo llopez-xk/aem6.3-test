@@ -1,0 +1,56 @@
+<!-- Modal window when the user is not logged in --> 
+    <script type="text/ng-template" id="ModalLogin">
+  <div id="myModalNormal" class="ModalLogin modalLogin">
+    <div class="ModalLogin-body modal-body">
+      <div class="ModalLogin-row row">
+          <div class="ModalLogin-iconBox col-md-2 hidden-xs icon-box">
+            <span class="icon-user-positive icon-large"></span>
+          </div>
+          <div class="col-md-10">
+    		
+          </div>
+      </div>
+      <div class="ModalLogin-row row"
+              login-form
+              login-focus-return="#user"
+              login-form-class="ModalLogin-form"
+              login-input-class='ModalLogin-inputText'
+              login-error-class="errorText"
+              login-airline=""
+              login-url="https://ssl.lan.com/ws/api/identity/v1/rest/authentication"
+              login-user="user"
+              login-pass="password"
+              logged-in-redirect-url="/es_cl/check-in-y-otros-servicios.html">
+        <form class="ModalLogin-form" role="form" name="serviceForm" novalidate>
+          <fieldset>
+            <div class="ModalLogin-formGroup form-group">
+              <label class="ModalLogin-label" for="user"></label>
+                <input id="user" type="text" class="form-control ModalLogin-inputText" ng-class="{'ModalLogin-inputText--invalid': serviceForm.$submitted && serviceForm.uName.$error.required}" ng-model="user.name" name="uName" required tabindex="2" aria-required="true">
+              <div class="ModalLogin-formError" ng-show="serviceForm.$submitted">
+                <span id="err_10" class="errtext ModalLogin-errorText" ng-show="serviceForm.$submitted && serviceForm.user.$error.required">Ingresa tu usuario</span>
+              </div>
+            </div>
+            <div class="ModalLogin-formGroup form-group">
+              <label class="ModalLogin-label" for="password"></label>
+                <input id="password" type="password" class="form-control ModalLogin-inputText" ng-class="{'ModalLogin-inputText--invalid': serviceForm.$submitted && serviceForm.uPassword.$error.required}" ng-model="user.password" name="uPassword" required tabindex="3" aria-required="true">
+              <div class="ModalLogin-formError" ng-show="serviceForm.$submitted">
+                <span id="err_11" class="errtext ModalLogin-errorText" ng-show="serviceForm.$submitted && serviceForm.password.$error.required">Ingresa tu clave</span>
+              </div>
+            </div>
+              <div class="ModalLogin-row row">
+              <button type="submit" class="btn col-xs-5 col-md-5 ModalLogin-submitButton LoginForm-submitButton" tabindex="4" ></button>
+              <p class="ModalLogin-subscribe ">
+                <span>
+                  
+                </span>
+              </p>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="ModalLogin-footer modal-footer">
+        <p></p>
+    </div>
+  </div>
+</script>

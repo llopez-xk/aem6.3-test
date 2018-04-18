@@ -1,0 +1,71 @@
+{
+  "status": {
+    "code": 200,
+    "message": "OK"
+  },
+  "data": [
+    {
+      "id": 1,
+      "type": ["flight", "kms", "bus", "hotel", "car"],
+      "description": "Precio final ida y vuelta",
+      "origin": "Origen 1",
+      "destiny": "Destino 1",
+      "days": "",
+      "currency": "$",
+      "currency_conv": "S./",
+      "amount": "999.01",
+      "amount_kms": "",
+      "last_amount": "",
+      "amount_conv": "10.970",
+      "shares": "",
+      "currency_tax": "$$",
+      "tax_amount": "98",
+      "link": "www.randomwebsite.com/cgi-bin/random.pl",
+      "until": 3,
+      "until_message": "",
+      "conditions": "Conditions1"
+    },
+    {
+      "id": 2,
+      "type": ["kms", "bus", "hotel", "car"],
+      "description": "Precio final ida y vuelta",
+      "origin": "Origen 2",
+      "destiny": "Destino 2",
+      "days": "",
+      "currency": "Q",
+      "currency_conv": "",
+      "amount": "999.02",
+      "amount_kms": "",
+      "last_amount": "",
+      "amount_conv": "",
+      "shares": 12,
+      "currency_tax": "AR$",
+      "tax_amount": "390",
+      "link": "www.randomwebsite.com/cgi-bin/random.pl",
+      "until": 3,
+      "until_message": "",
+      "conditions": "Conditions2"
+    },
+    {
+      "id": 3,
+      "type": ["flight", "kms", "hotel", "car"],
+      "description": "Precio final ida y vuelta",
+      "origin": "Origen 3",
+      "destiny": "Destino 3",
+      "days": "",
+      "currency": "€",
+      "currency_conv": "AR$",
+      "amount": "999.02",
+      "amount_kms": "",
+      "last_amount": "12.970",
+      "amount_conv": "",
+      "shares": "",
+      "currency_tax": "",
+      "tax_amount": "",
+      "link": "www.randomwebsite.com/cgi-bin/random.pl",
+      "until": 3,
+      "until_message": "",
+      "conditions": "Conditions3"
+    }
+  ]
+}

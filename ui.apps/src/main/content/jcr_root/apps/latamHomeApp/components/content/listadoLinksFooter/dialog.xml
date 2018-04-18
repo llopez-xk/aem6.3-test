@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="500"
+    title="Footer Links"
+    width="900"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <footerLinksTab
+                jcr:primaryType="cq:Panel"
+                title="Footer - List of links">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <columnA
+                        jcr:primaryType="cq:Widget"
+                        anchor="100%"
+                        collapsed="{Boolean}false"
+                        collapsible="{Boolean}true"
+                        title="First Column"
+                        xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <columnTitle
+                                jcr:primaryType="cq:Widget"
+                                anchor="96%"
+                                fieldLabel="Title"
+                                name="./titleColumnA"
+                                xtype="textfield"/>
+                            <showtitleinmobile
+                                jcr:primaryType="cq:Widget"
+                                anchor="95%"
+                                boxLabel="&amp;nbsp;You can activate a maximum of 2 elements for the mobile view"
+                                fieldLabel="Show title in mobile"
+                                name="./showinmobileA"
+                                type="checkbox"
+                                xtype="selection">
+                                <listeners
+                                    jcr:primaryType="nt:unstructured"
+                                    loadcontent="function(field,record,path){&#xa;&#x9;    var isChecked = field.getValue()[0];&#xa;&#x9;    Latam.authoring.Utils.toggleField(field,isChecked,'linktitleA');&#xa;        }"
+                                    selectionchanged="function(field,value,isChecked){&#xa;                Latam.authoring.Utils.toggleField(field,isChecked,'linktitleA');&#xa;    }"/>
+                            </showtitleinmobile>
+                            <linktitleA
+                                jcr:primaryType="nt:unstructured"
+                                anchor="95%"
+                                defaultAlt="*"
+                                defaultPath="*"
+                                defaultTitle="*"
+                                id="linktitleA"
+                                name="./linktitleA"
+                                pathAllowBlank="{Boolean}false"
+                                textAllowBlank="{Boolean}false"
+                                titleAllowBlank="{Boolean}false"
+                                xtype="latamlink"/>
+                            <fields
+                                jcr:primaryType="cq:Widget"
+                                anchor="95%"
+                                fieldDescription="7 items maximum"
+                                fieldLabel="Links configuration"
+                                name="./fieldsColumnA"
+                                xtype="latammultifield">
+                                <fieldConfig
+                                    jcr:primaryType="nt:unstructured"
+                                    limit="7"
+                                    xtype="multifieldpanel">
+                                    <items jcr:primaryType="cq:WidgetCollection">
+                                        <isTitle
+                                            jcr:primaryType="cq:Widget"
+                                            anchor="95%"
+                                            key="istitle"
+                                            name="istitle"
+                                            type="checkbox"
+                                            xtype="selection">
+                                            <listeners
+                                                jcr:primaryType="nt:unstructured"
+                                                check="function(comp, val, isChecked) {&#xa;        comp.checked = isChecked;&#xa;&#x9;&#x9;Latam.authoring.Utils.toggleFieldInMultifield(comp,true,isChecked);&#xa;&#x9;}"
+                                                selectionchanged="function(comp, val, isChecked) {&#xa;        comp.checked = isChecked;&#xa;&#x9;&#x9;Latam.authoring.Utils.toggleFieldInMultifield(comp,true,isChecked);&#xa;&#x9;}"/>
+                                            <options jcr:primaryType="cq:WidgetCollection">
+                                                <title
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="&amp;nbsp;Check / Uncheck the box to switch between title and link"
+                                                    value="false"/>
+                                            </options>
+                                        </isTitle>
+                                        <link
+                                            jcr:primaryType="nt:unstructured"
+                                            anchor="95%"
+                                            key="link"
+                                            name="./link"
+                                            pathAllowBlank="{Boolean}false"
+                                            textAllowBlank="{Boolean}false"
+                                            titleAllowBlank="{Boolean}false"
+                                            xtype="latamlink"/>
+                                        <title
+                                            jcr:primaryType="cq:Widget"
+                                            anchor="70.5%"
+                                            fieldDescription="Enter a text"
+                                            fieldLabel="Text"
+                                            hidden="{Boolean}true"
+                                            key="title"
+                                            xtype="textfield"/>
+                                    </items>
+                                </fieldConfig>
+                            </fields>
+                        </items>
+                    </columnA>
+                </items>
+            </footerLinksTab>
+        </items>
+    </items>
+</jcr:root>

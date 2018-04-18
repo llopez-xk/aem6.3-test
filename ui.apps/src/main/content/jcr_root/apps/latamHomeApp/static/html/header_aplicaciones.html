@@ -1,0 +1,86 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="//localhost:4502/static/latam/styles/external/bootstrap.min.css">
+    <link rel="stylesheet" href="//s.latamstatic.com/layout/ui/3/css/global.min.css">
+
+
+
+    <link rel="stylesheet" href="//s.latamstatic.com/layout/ui/3/css/latam-mu.min.css" type="text/css">
+
+    <link rel="stylesheet" href="//localhost:4502/etc/designs/latamApp/clientlibs/latam.min.css" type="text/css">
+
+    <link rel="stylesheet" href="//localhost:4502/etc/designs/latamApp/clientlibs/header/rendering-latam.min.css" type="text/css">
+
+    <link rel="stylesheet" href="//localhost:4502/etc/designs/latamApp/clientlibs/footer/rendering-latam.min.css" type="text/css">
+
+
+
+</head>
+
+<body ng-app="latamApp">
+
+
+
+
+
+
+
+
+<header class="Header"
+        header
+        template-header="/content/latam/lan/es_cl/header-footer/_jcr_content/header.html"
+        template-nav="/content/latam/lan/es_cl/header-footer/_jcr_content/header/headerMenu.html"
+        template-countryselector="/content/latam/lan/es_cl/header-footer/_jcr_content/header/countrySelector.html"
+        template-cookieterms="/content/latam/lan/es_cl/header-footer/_jcr_content/header/cookieTerms.html"
+        role="banner"
+        tam="true"
+        logo="/static/latam/images/content-image/header/logo-latam-mu.svg"
+        logo-desktop=""
+        logo-sticky="/static/latam/images/content-image/header/latam-logo-sticky.svg"
+        logo-process="/static/latam/images/content-image/header/logo_latam_color.svg"
+        ng-controller="HeaderCtrl"
+        inverse="true"
+        demo=""
+        process="false"
+        login-url="https://ssl.lan.com/ws/api/identity/v1/rest/authentication"
+        sr-text=""
+        sr-title=""
+        login-template-url="/content/latam/lan/es_cl/header-footer/_jcr_content/header/loginProfileAction.html"
+        selected-index-nav=""
+>
+</header>
+
+
+
+
+<script src="//localhost:4502/etc/designs/latamApp/clientlibs/static/jquery.min.js" type="text/javascript"></script>
+<script src="//localhost:4502/etc/designs/latamApp/clientlibs/static/utils.min.js" type="text/javascript"></script>
+<script src="//localhost:4502/static/latam/scripts/angular/angular.min.js" type="text/javascript"></script>
+<script src="//localhost:4502/etc/designs/latamApp/clientlibs/static/angular.min.js" type="text/javascript"></script>
+<script>
+
+
+
+	app.airline = "latam";
+
+	app.lang = "es";
+
+
+
+	app.whitelist = [
+        "lan.com"
+    ];
+
+
+</script>
+<script src="" type="text/javascript"></script>
+<script src="//localhost:4502/etc/designs/latamCommonsApp/clientlibs/latamCommons.min.js" type="text/javascript"></script>
+<script src="//localhost:4502/etc/designs/latamApp/clientlibs/angularjs.js" type="text/javascript"></script>
+<script src="//localhost:4502/etc/designs/latamApp/clientlibs/rendering.min.js" type="text/javascript"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<div class="AccessMinisitesParallax" data-image-src="{{ ::background }}">
+  <div class="container AccessMinisitesParallax-container">
+    <div class="AccessMinisitesParallax-bannerContainer col-xs-12 col-sm-12" ng-class="::widthClass">
+      <div class="row AccessMinisitesParallax-banner" ng-class="::bannerClass" ng-style="::colorBanner">
+        <div class="AccessMinisitesParallax-logoContainer col-xs-12 col-sm-3 col-sm-offset-0" ng-if="::logo">
+          <img class="AccessMinisitesParallax-logo" ng-src="{{ ::logo }}" alt="{{ ::textLogo }}"/>
+        </div>
+        <div class="AccessMinisitesParallax-textContainer col-xs-12" ng-class="::textWidth">
+          <p class="AccessMinisitesParallax-text" ng-class="::textClass" ng-bind="::text"></p>
+          <p class="AccessMinisitesParallax-strong" ng-class="::strongClass" ng-bind="::strong"></p>
+        </div>
+        <div class="AccessMinisitesParallax-btnContainer col-xs-12" ng-class="::btnClass">
+          <a class="AccessMinisitesParallax-btn Btn btn-flat third-level third-negative" ng-class="::{'flat-small':logo, 'flat-large':!logo}" ng-href="{{ ::btnHref }}" ng-bind="::btnText"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

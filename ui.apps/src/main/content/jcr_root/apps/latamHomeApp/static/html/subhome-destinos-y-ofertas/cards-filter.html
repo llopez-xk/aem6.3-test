@@ -1,0 +1,38 @@
+<div main-access-menu  change="pushDownCards" config="{'notverticalnav':true,'notlateralnav':false,'notclick':false}">
+    <button tabindex="0" class="nav-item CardsFilter-btn"><span class="icon-filter icon-small CardsFilter-iconFilter"></span><span class="CardsFilter-textBtn">Filtros</span><span class="icon-caret-down CardsFilter-caretBtn"></span></button>
+    <div  class="Sub-Menu CardsFilter-info">
+        <h2 class="CardsFilter-title">¿Que quieres ver?</h2>
+        <form class="CardsFilter-form">
+            <div class="CardsFilter-filters">
+                <fieldset>
+                    <legend class="sr-only">Selecciona qué información quieres ver: escoge si quieres revisar las tarifas disponibles o conocer los diferentes atractivos de este destino.</legend>
+                    <div class="sub-nav-group CardsFilter-filter" ng-repeat="category in categories">
+          <span tabindex="0" class="CardsFilter-labelWrapper subnav-item"  ng-class="{ 'CardsFilter-label--checked': category.checked }" >
+            <label  for="card-filter-{{ category.name | lowercase | slugify }}" class="CardsFilter-label" ng-bind="category.name"></label>
+          </span>
+                        <input id="card-filter-{{ category.name | lowercase | slugify }}" class="CardsFilter-checkbox" type="checkbox" name="cards" value="{{ category.name }}" ng-checked="category.checked" />
+                    </div>
+                </fieldset>
+            </div>
+            <div class="CardsFilter-buttons">
+      <span class="sub-nav-group">
+        <button class="CardsFilter-cancel">Cancelar</button>
+      </span>
+      <span class="sub-nav-group">
+        <button class="CardsFilter-apply">Aplicar</button>
+      </span>
+            </div>
+        </form>
+    </div>
+    <div id="CardsFilter-tags" class="CardsFilter-tags" ng-show="filteredCats.length" aria-hidden="true">
+        <div class="CardsFilter-textBox">
+            <p class="CardsFilter-text">Filtrado por:</p>
+        </div>
+        <div class="CardsFilter-containerTags">
+            <div filter-watcher filtered="{{ filteredCats.length }}" class="CardsFilter-tagBox" ng-style="{ background: filter.color }" data-name="{{ filter.name }}" ng-repeat="filter in filteredCats = (categories | filter:{checked: true})">
+                <span class="CardsFilter-tagText" ng-bind="filter.name"></span>
+                <span class="icon-close CardsFilter-tagClose"></span>
+            </div>
+        </div>
+    </div>
+</div>

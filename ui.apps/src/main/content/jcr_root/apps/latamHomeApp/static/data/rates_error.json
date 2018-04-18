@@ -1,0 +1,35 @@
+{
+  "status": {
+    "code": 200,
+    "message": "OK"
+  },
+  "data": [
+    {
+      "amount_conv": "10.970",
+      "shares": "",
+      "currency_tax": "US$",
+      "tax_amount": "98",
+      "link": "http://...",
+      "until": 3,
+      "until_message": "",
+      "conditions": "Text.."
+    }
+    {
+      "id": 1,
+      "days": "",
+      "currency": "US$",
+      "currency_conv": "S./",
+      "amount": "79.668",
+      "amount_kms": "",
+      "last_amount": "",
+      "amount_conv": "10.970",
+      "shares"  "",
+      "currency_tax": "US$",
+      "tax_amount": "98",
+      "link": "http://...",
+      "until": 3
+      "until_message": "",
+
+    },
+  ]
+}

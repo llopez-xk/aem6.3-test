@@ -1,0 +1,21 @@
+<div class="FreeTextCard" ng-class="::{'FreeTextCard--noexpand':!content.expandable}">
+    <div class="FreeTextCard-box">
+        <div id="FreeTextCard-collapsible" class="FreeTextCard-collapsible" aria-hidden="false">
+            <div class="FreeTextCard-card">
+                <div class="FreeTextCard-content">
+                    <div class="FreeTextCard-description richtext" ng-bind-html="::content.content"></div>
+                    <div class="FreeTextCard-buttonContainer">
+                        <a ng-repeat="btn in ::content.buttons | limitTo: 1"
+                           class="FreeTextCard-Btn Btn btn-flat flat-{{::btn.size}} {{::btn.level}}-level"
+                           target="{{::btn.target||'_self'}}"
+                           ng-href="{{::btn.link}}">
+              <span class="" ng-bind="::btn.text">
+              </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="FreeTextCard-expandButton" aria-controls="FreeTextCard-collapsible" aria-expanded="true"><span class="icon icon-caret-down icon-small"></span></button>
+</div>

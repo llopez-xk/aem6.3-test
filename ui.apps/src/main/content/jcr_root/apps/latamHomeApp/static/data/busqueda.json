@@ -1,0 +1,90 @@
+{
+  "result" : {
+    "total" : "100",
+    "limit" : "10",
+    "offset" : "0",
+    "elements" : [
+      {
+        "type"    : "Noticia",
+        "title"   : "search1 - Título de noticia 1",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Guatemala",
+          "url"     : "http://www.randomwebsite.com/cgi-bin/random.pl"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search2 - Título de noticia 2",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "http://www.randomwebsite.com/cgi-bin/random.pl"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search3 - Título de noticia 3",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "http://www.randomwebsite.com/cgi-bin/random.pl"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search - Título de noticia 4",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "http://www.randomwebsite.com/cgi-bin/random.pl"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search5 - Título de noticia 5",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "http://www.randomwebsite.com/cgi-bin/random.pl"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search6 - Título de noticia 5",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "http://www.randomwebsite.com/cgi-bin/random.pl"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search7 - Título de noticia 7",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "http://www.randomwebsite.com/cgi-bin/random.pl"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search8 - Título de noticia 8",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "http://www.randomwebsite.com/cgi-bin/random.pl"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search9 - Título de noticia 9",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "http://www.randomwebsite.com/cgi-bin/random.pl"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search10 - Título de noticia 10",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "http://www.randomwebsite.com/cgi-bin/random.pl"
+      }
+
+    ]
+  }
+}

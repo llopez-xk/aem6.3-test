@@ -1,0 +1,102 @@
+<div class="Header-content">
+  <!-- Desktop Primary bar-->
+  <div class="Header-sr hidden-xs">
+    <div class="Header-sr-container">
+      <a class="sr-only Header-sr-only sr-only-focusable links-sr-only" href="#maincontent" title="{{srTitle}}" > {{srText}} </a>
+    </div>
+  </div>
+  <div class="Header-stepBar Header-stepBar--main" ng-class="{'Header-stepBar--inverse': isInverse, 'Header-stepBar--home': home}">
+    <div cookie-terms></div>
+    <div class="Header-shadow">
+      <div class="container container-xs-height">
+        <div class="row row-xs-height">
+          <div class="col-xs-5 col-xs-height hidden-xs">
+            <div role="complementary" class="complementary">
+              <ul class="Header-complementaryList">
+                <li class="Header-complementaryItem padding right toggle">
+                  <!-- Include country Selector Sub Component -->
+                  <div country-selector main-access-menu template-countryselector="{{ templateCountrySelector }}" tam="{{ tam }}"></div>
+                  <!-- End country selector sub component -->
+                </li>
+                <li class="Header-complementaryItem Header-complementaryDivider hidden-xs" ng-class="{'Header-complementaryDivider--inverse': isInverse}" ng-hide="process"></li>
+                <li class="Header-complementaryItem hidden-xs" ng-hide="process">
+                  <a class="Header-complementaryLink" ng-class="{'Header-complementaryLink--inverse': isInverse}" href="#">{{ tam ? 'Para sua empresa' : 'LAN Empresas'}}</a>
+                </li>
+                <li class="Header-complementaryItem Header-complementaryDivider hidden-xs" ng-class="{'Header-complementaryDivider--inverse': isInverse}" ng-hide="process"></li>
+                <li class="Header-complementaryItem hidden-xs" ng-hide="process">
+                  <a class="Header-complementaryLink" ng-class="{'Header-complementaryLink--inverse': isInverse}" href="#">
+                    <sup class="Header-helpIcon icon-speech-help-negative icon-medium" ng-hide="tam"></sup><span class="Header-helpLabel" ng-class="tam ? 'Header-contactLink' : ''">{{ tam ? 'Contato' : 'Centro de ayuda'}}</span>
+                  </a>
+                </li>
+                <li class="Header-complementaryItem " ng-show="process">
+                  <span class="Header-processNumber"><sub class="Header-processNumberIcon icon-phone icon-small"></sub> +52 015 232 6798</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-2 col-xs-height hidden-xs">
+          </div>
+          <div class="col-xs-12 col-sm-5 col-xs-height col-top">
+            <div class="Header-login">
+              <div class="Login" login-focus-return="#user"  login tam="{{ tam }}" url="{{ loginUrl }}" login-user-data-url="{{ loginUserDataUrl }}" login-captcha-url="{{ loginCaptchaUrl }}" ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End Primary bar-->
+
+  <!-- Desktop/Mobile Secondary Bar-->
+
+  <div class="Header-stepBar Header-stepBar--white Header-stepBar--wPadding Header-stepBar--bordered Header-stepBar--stick" ng-class="{'Header-stepBar--whiteInverse': isInverse}" ng-hide="process">
+    <div class="container Header-container--relative">
+      <div class="row">
+        <div class="col-xs-12 col-md-3">
+          <div class="Header-logo">
+            <a href="#" class="Header-logoBlock Header-logoLink">
+              <picture>
+                <source media="(min-width: 767px)" ng-srcset="{{ logoDesktop }}">
+                <img src="{{ logo }}" alt="LATAM Logo" class="Header-logoImg">
+              </picture>
+            </a>
+            <a href="#" class="Header-logoBlock Header-logoLink Header-logoOneWorld"><img src="assets/images/content-image/header/oneworld.png" alt="LATAM Oneworld Logo" class="Header-logoImg Header-logoImg--sub"></a>
+            <div class="Header-logoBlock Header-actions">
+              <a href="#" class="Header-actionLink Header-profile"><span class="Header-actionIcon Header-userProfileIcon icon-user-positive icon-small"></span></a>
+              <a href="#" class="Header-actionLink Header-burger">
+                <svg class="Header-actionLinkBurger" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="157.9 290.1 176.6 135.8" enable-background="new 157.9 290.1 176.6 135.8" xml:space="preserve">
+                  <path d="M324.5,290.1H168c-5.8,0-10.1,4.8-10.1,10.1c0,5.3,4.8,10.1,10.1,10.1h156.5c5.8,0,10.1-4.8,10.1-10.1	C334.6,294.9,330.2,290.1,324.5,290.1z"/>
+                  <path d="M324.5,348.2H168c-5.8,0-10.1,4.8-10.1,10.1c0,5.8,4.8,10.1,10.1,10.1h156.5c5.8,0,10.1-4.8,10.1-10.1 C334.6,352.5,330.2,348.2,324.5,348.2z"/>
+                  <path d="M324.5,405.8H168c-5.8,0-10.1,4.8-10.1,10.1c0,5.3,4.8,10.1,10.1,10.1h156.5c5.8,0,10.1-4.8,10.1-10.1	C334.6,410.6,330.2,405.8,324.5,405.8z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-3 col-md-9 MobileMenu">
+          <div class="Header-menu">
+            <div nav template="{{ templateNav }}" process="{{ navProcess }}" ></div>            <!-- Menu directive here-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End second bar-->
+</div>
+
+<!-- Modal window when the user is not valid -->
+<script type="text/ng-template" id="LoginForm-errorModal">
+  <span class="LoginForm-errorModalMsgExclamation icon-exclamation-positive icon-large hidden-xs"></span>
+  <p class="LoginForm-errorModalMsg"> El nombre de usuario o la clave que ingresaste no coinciden con nuestros registros.</p>
+  <p class="LoginForm-errorModalMsg LoginForm-errorModalSecondMsg">Por favor, asegúrate de escribirlos correctamente e inténtalo otra vez.</p>
+  <p class="LoginForm-errorModalMsg"><strong>Si olviaste tu usuario o clave, selecciona una opción:</strong></p>
+  <div class="LoginForm-errorModalButtons">
+    <a href="#" type="submit" class="LoginForm-btn LoginForm-btn--static btn-pfija" title="Login Form" tabindex="2" ng-click="submitLoginForm()">
+      <span class="LoginForm-btnTxt LoginForm-btnTxt--f16px btn-text"><span class="LoginForm-btnCaret LoginForm-btnCaret--w32px icon-user-positive icon-medium"></span> Recordar mi usuario</span>
+    </a>
+    <a href="#" type="submit" class="LoginForm-btn LoginForm-btn--static btn-pfija" title="Login Form" tabindex="3" ng-click="submitLoginForm()">
+      <span class="LoginForm-btnTxt LoginForm-btnTxt--f16px btn-text"><span class="LoginForm-btnCaret LoginForm-btnCaret--w32px icon-padlock icon-medium"></span> Recuperar mi clave</span>
+    </a>
+  </div>
+</script>
+<div class="selectDemo" ng-hide="!demo">
+  <select ng-init="selectDemo = selectDemo || demoOptions[0]" ng-model="selectDemo" ng-options="opt.value for opt in demoOptions"></select>
+</div>

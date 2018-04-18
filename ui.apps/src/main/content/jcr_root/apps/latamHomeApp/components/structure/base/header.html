@@ -1,0 +1,16 @@
+<header header class="Header" role="banner"
+        tam="false"
+        process="false"
+
+        logo-desktop="/static/latam/images/content-image/header/logo-latam-mu.svg"
+        logo-process="/static/latam/images/content-image/header/logo_latam_color.svg"
+
+        selected-index-nav=""
+>
+    <div data-sly-resource="${'header' @ resourceType='latamHomeApp/components/structure/header'}"></div>
+</header>
+
+<!--/* Initializes the Experience Manager authoring UI */-->
+<sly data-sly-include="/libs/wcm/core/components/init/init.jsp"/>
+<div data-sly-include="extraheader.html" data-sly-unwrap></div>
+

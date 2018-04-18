@@ -1,0 +1,71 @@
+<div class="Rate Rate--noImage Rate--{{ ::rateColor }}">
+    <div class="Rate-link" title="{{ :: offer.flightInformation.departure.name }} - {{ :: offer.flightInformation.destination.airportName }}">
+        <div class="Rate-badges">
+            <span class=" Rate-icon icon-medium-rounded icon-regular-ffp008" ng-hide="::!rateFidelizacion"></span>
+            <span class=" Rate-icon icon-medium-rounded icon-regular-air001" ng-hide="::rateFidelizacion"></span>
+        </div>
+        <div class="Rate-detail">
+            <div class="Rate-flight">
+                <div class="Rate-from">
+                    <p class="Rate-fromText" ng-hide="::!offer.flightInformation.departure.name" ng-bind=":: offer.flightInformation.departure.name"></p>
+                </div>
+                <div class="Rate-to">
+                    <p class="Rate-toText" ng-bind=":: offer.flightInformation.destination.name"></p>
+                </div>
+                <div class="Rate-tripType" ng-show="::offer.flightInformation.tripType">
+                    <p class="Rate-tripTypeText">Vuelo Directo</p>
+                </div>
+                <div class="Rate-price">
+                    <div class="Rate-price--first">
+                        <div class="Rate-priceDetail Rate-priceDetail--first" ng-class="::{'Rate-priceDetail--noFloat': display.lastAmount}">
+                            <span class="Rate-base" ng-bind="::cardPriceFromLabel"></span>
+                            <span class="Rate-currency" ng-if="::(!display.KMS)" ng-bind="::offer.priceInformation.marketCurrencyCode | currencyMap"></span>
+                            {%#if content.EqualTo_0 %}
+                              <span class="Rate-amount" ng-if="!display.KMS" ng-bind="::(offer.priceInformation.price | priceFormatter)"></span> <span class="Rate-base display-initial" ng-if="!display.KMS">{%{config.xk_dyo_BrCuotasVista}%}</span>
+                              <span class="Rate-amount" ng-if="::display.KMS" ng-bind="::(offer.priceInformation.points | milesFormatter)"></span> <span class="Rate-base display-initial" ng-if="::display.KMS">{%{config.xk_dyo_BrCuotasVista}%}</span>
+                            {%/if%}
+                            {%#unless content.EqualTo_0 %}
+                              <span class="Rate-amount" ng-if="!display.KMS" ng-bind="::(offer.priceInformation.price | priceFormatter)"></span>
+                              <span class="Rate-amount" ng-if="::display.KMS" ng-bind="::(offer.priceInformation.points | milesFormatter)"></span>
+                            {%/unless%}
+                            <span class="Rate-currency Rate-currency--points" ng-if="::display.KMS" ng-bind="::milesSign"></span>
+                        </div>
+                    </div>
+                    <div class="Rate-price--second" ng-if="::(display.priceKMS || display.cuotaNumber)">
+                        <div class="Rate-priceDetail Rate-priceDetail--second">
+                            <span class="Rate-amountConv" ng-if="::display.priceKMS" ng-bind="::(offer.priceInformation.points | milesFormatter)"></span>
+                            <span class="Rate-currencyConv" ng-if="::display.priceKMS" ng-bind="::milesSign"></span>
+                            {%#if content.EqualTo_0 %}
+                              <span class="Rate-amountShares" ng-if="::(display.cuotaNumber && !display.KMS )">{%{config.xk_dyo_BrCuotasHasta}%} {{ ::offer.priceInformation.installment.number }} x</span>
+                            {%/if%}
+                            {%#unless content.EqualTo_0 %}
+                              <span class="Rate-amountShares" ng-if="::(display.cuotaNumber && !display.KMS )">ou {{ ::offer.priceInformation.installment.number }} x {{ ::offer.priceInformation.marketCurrencyCode | currencyMap }} {{ ::offer.priceInformation.installment.price | priceFormatter }}</span>
+                            {%/unless%}
+                        </div>
+                    </div>
+                </div>
+                <div class="Rate-price--third">
+                    <div class="Rate-descriptionContainer">
+                        <span class="Rate-description" ng-bind="::offer.complementary_text"></span>
+                    </div>
+                    <a class="Rate-conditionsLink Btn btn-flat fourth-level flat-small hidden-md hidden-lg" href="#" title="{{ ::rateConditionsTitle }}">
+                        <span class="Rate-conditionsIcon icon-modal"></span>
+                        <span class="Rate-seeMore">Ver restrições</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="Rate-conditions">
+            <a class="Rate-conditionsLink Btn btn-flat fourth-level flat-small hidden-xs hidden-sm" role="button" aria-haspopup="true" href="#" title="{{ ::rateConditionsTitle }}">
+                <span class="Rate-conditionsIcon icon-modal"></span>
+                <span class="Rate-seeMore">Ver restrições</span>
+            </a>
+            <a ng-href="{{ ::offer.revenueFlowURL }}" ng-if="::(offer.revenueFlowURL && !offer.redemptionFlowURL)" title="{{ ::rateButtonTitle }}" class="Rate-conditionsBtn Btn btn-flat third-level flat-small">
+                <span class="Rate-conditionsText" ng-bind="::rateButton"></span>
+            </a>
+            <a ng-href="{{ ::offer.redemptionFlowURL }}" ng-if="::(offer.redemptionFlowURL && !offer.revenueFlowURL)" title="{{ ::rateButtonTitle }}" class="Rate-conditionsBtn Btn btn-flat third-level flat-small">
+                <span class="Rate-conditionsText" ng-bind="::rateButton"></span>
+            </a>
+        </div>
+    </div>
+</div>

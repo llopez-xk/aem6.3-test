@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+    .Header-stepBar {
+        line-height: 1;
+    }
+    .Header-stepBar--hidden {
+        position: fixed;
+        top: -36px;
+        width: 100%;
+        transition: top .5s;
+    }
+    .Header-stepBar--visible {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    	z-index: 3333;
+        -webkit-box-shadow: 0px 1px 1.68px 1.32px rgba(0, 2, 0, 0.5);
+        box-shadow: 0px 1px 1.68px 1.32px rgba(0, 2, 0, 0.5);
+        transition: top .5s;
+    }
+    .Header-logoStickyContainer {
+        vertical-align: middle;
+    }
+    .Header-logoSticky {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+    }
+    .Header-stepBar--visible .Header-logoSticky {
+        visibility: visible;
+        opacity: 1;
+    	padding-left: 5px;
+    }
+}

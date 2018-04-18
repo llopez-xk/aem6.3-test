@@ -1,0 +1,50 @@
+<div class="VideoCard-backgroundImage">
+    <img ng-src="{{::imageMobile}}" >
+</div>
+<div class="VideoCard-overlay"></div>
+<div class="VideoCard-container">
+    <div class="VideoCard-textBlock">
+        <h2 class="VideoCard-city">{{:: city }}</h2>
+        <p class="VideoCard-country">{{:: country }}</p>
+        <div class="VideoCard-playButtonContainer">
+            <button data-video="{{ ::video }}" class="VideoCard-playButton" aria-haspopup="true">
+                <span class="icon-regular-ife013 icon-xlarge VideoCard-playButtonIcon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="VideoCard-callAction VideoCard-callAction--{{ ::colorSchema }}" ng-show="::callToAction">
+        <a ng-href="#" title="" class="btn-flat third-level flat-small VideoCard-conditionsButton">
+            <span class="btn-description VideoCard-conditionsButtonText">Ver Destino</span>
+        </a>
+    </div>
+</div>
+<!-- Modal window when the user is not logged in -->
+<script type="text/ng-template" id="VideoCard-modal">
+    <div class="VideoCard-modalBody modal-body">
+        <h2 class="VideoCard-modalHeader sr-only">{{ ::ngDialogData.city }}</h2>
+        <iframe width="700" height="394" ng-src="{{ ::ngDialogData.videoEmbed }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="VideoCard-modalFooter modal-footer container-fluid">
+        <div class="row">
+            <div class="VideoCard-modalDescription col-sm-9" ng-show="showDescription">{{ ::ngDialogData.videoDescription }}</div>
+            <div class="VideoCard-modalSocial col-sm-3" ng-show="showSocialLinks">
+                <div class="VideoCard-modalSocialLink">
+                    <a href="https://www.facebook.com/dialog/feed?app_id={{ ::fbAppId }}&display=popup&caption={{ ::title }}&link={{ ::video }}" title="Facebook" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><span class="icon-facebook icon-small icono-redes"></span></a>
+                </div>
+                <div class="VideoCard-modalSocialLink">
+                    <a class="opentwitter" href="http://twitter.com/intent/tweet?text={{ ::title }} {{ ::headline }}&url={{ ::video }}" title="Twitter" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><span class="icon-twitter icon-small icono-redes"></span></a>
+                </div>
+                <div class="VideoCard-modalSocialLink">
+                    <a href="https://plus.google.com/share?url={{ ::video }}" title="Google+" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><span class="icon-google icon-small icono-redes"></span></a>
+                </div>
+                <div class="VideoCard-modalSocialLink">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ ::video }}&title={{ ::title }}&summary={{ ::headline }}" title="LinkedIn" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><span class="icon-linkedin icon-small icono-redes"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>

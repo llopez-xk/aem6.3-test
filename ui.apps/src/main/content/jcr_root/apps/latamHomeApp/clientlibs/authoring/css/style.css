@@ -1,0 +1,39 @@
+.xk-placeholder, [xk-section-styles*="xk-placeholder"] {
+	border: 2px dashed #c1c1c1;
+    background:url("/libs/cq/ui/widgets/themes/default/placeholders/carousel.png") no-repeat 50%;
+    height: 75px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 5px 0px;
+}
+
+.x-form-checkbox.x-form-field {
+    -webkit-appearance: checkbox !important;
+}
+
+.x-fieldset-header.x-unselectable {
+    display: block !important;
+    width: auto !important;
+    -webkit-padding-start: 2px !important;
+    -webkit-padding-end: 2px !important;
+    border: none !important;
+    border-image-source: initial !important;
+    border-image-slice: initial !important;
+    border-image-width: initial !important;
+    border-image-outset: initial !important;
+    border-image-repeat: initial !important;
+}
+
+#CQ .x-btn-text-icon .x-btn-icon-small-left .x-btn-text {
+    padding-left: 18px !important;
+}
+
+#CQ .x-panel.cq-selection .x-form-cb-label-hidden {
+    color: #8F8F8F;
+    font-size: 11px;
+}
+
+#CQ .x-panel.cq-selection {
+    margin-bottom: 15px !important;
+}

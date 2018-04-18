@@ -1,0 +1,48 @@
+<div class="BannerCampaignRate-banner">
+    <div class="BannerCampaignRate-logo"><!-- Important note: if no logo image is present, add 'BannerCampaignRate-logo--nologo' class to this div -->
+        <img class="BannerCampaignRate-logoImg" src="/static/latam/images/content-image/destino-del-mes-desktop.png">
+    </div>
+    <h2 class="BannerCampaignRate-text"><!-- Important note: if no text is present, add 'BannerCampaignRate-text--notexto' class to this h2 -->
+        Destino del mes:  <span class="BannerCampaignRate-textDestiny">México</span>
+    </h2>
+</div>
+<div class="BannerCampaignRate-background" style="background-image:url('{{ ::rateImage }}');">
+    <div class="BannerCampaignRate-gradient"></div>
+    <div class="BannerCampaignRate-contentInfo">
+        <div class="BannerCampaignRate-originBox">
+            <h2 class="BannerCampaignRate-infoOrigin" ng-bind="::rate.origin"></h2>
+            <h3 class="BannerCampaignRate-destiny" ng-bind="::rate.destiny"></h3>
+        </div>
+        <div class="BannerCampaignRate-rateBox">
+            <div class="BannerCampaignRate-base">
+                <span class="BannerCampaignRate-rateBase">Precio total desde</span>
+            </div>
+            <div class="BannerCampaignRate-rate">
+        <span class="BannerCampaignRate-currency" ng-if="!display.primaryEuroKMS">{{::rate.pricing.primary.currencyDisplay}}<span class="BannerCampaignRate-amount" ng-if="::display.primaryAmount" ng-bind="::rate.pricing.primary.amountDisplay"></span>
+        </span>
+        <span class="BannerCampaignRate-currency" ng-if="::display.primaryEuroKMS">{{::rate.pricing.primary.currencyDisplay}}<span class="BannerCampaignRate-amount" ng-if="::display.primaryAmount" ng-bind="::rate.pricing.primary.amountDisplay"></span>
+        </span>
+            </div>
+        </div>
+        <div>
+            <div class="BannerCampaignRate-info">
+                <span class="BannerCampaignRate-description" ng-bind="::rate.flight.flightTypeDisplay"></span>
+            </div>
+        </div>
+    </div>
+    <div class="BannerCampaignRate-contentRestrictions">
+        <span class="BannerCampaignRate-lastDays" ng-if="::rate.until" ng-bind="::rate.untilMessage"></span>
+        <p class="BannerCampaignRate-restrictions" ng-bind="::rate.description"></p>
+    </div>
+    <div class="BannerCampaignRate-contentActions"></div>
+    <a class="Rate-conditionsLink BannerCampaignRate-conditionsLink" href="#" title="{{ ::rateConditionsTitle }}">
+        <span><span class="icon-modal icon-xsmall BannerCampaignRate-conditionsIcon"></span></span>
+        <span class="Rate-seeMore" ng-bind="::rateConditions"></span>
+    </a>
+    <a class="btn pull-right BannerCampaignRate-conditionsBtn" ng-href="{{ ::rateAnchor }}" title="{{ ::rateButtonTitle }}">
+    <span class="btn-description BannerCampaignRate-conditionsText">
+      {{ ::rateButton }}
+      <span class="icon-caret-right icon-xsmall pull-right BannerCampaignRate-conditionsCaret"></span>
+    </span>
+    </a>
+</div>

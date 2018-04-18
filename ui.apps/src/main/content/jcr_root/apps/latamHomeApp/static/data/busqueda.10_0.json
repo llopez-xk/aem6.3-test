@@ -1,0 +1,89 @@
+{
+  "result" : {
+    "total" : "40",
+    "limit" : "10",
+    "offset" : "0",
+    "elements" : [
+      {
+        "type"    : "Noticia",
+        "title"   : "search1 - Título de noticia 1",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "/noticia1.html"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search2",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "/noticia1.html"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search3",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "/noticia1.html"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search4",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "/noticia1.html"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search5",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "/noticia1.html"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search6",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "/noticia1.html"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search7",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "/noticia1.html"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search8",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "/noticia1.html"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search9",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "/noticia1.html"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "search10",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+        "url"     : "/noticia1.html"
+      }
+    ]
+  }
+}

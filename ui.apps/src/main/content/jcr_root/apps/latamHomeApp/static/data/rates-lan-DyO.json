@@ -1,0 +1,687 @@
+{
+    "status": {
+        "code": 200,
+        "message": "OK"
+    },
+    "data": [
+        {
+            "id": "22",
+            "type": ["PASAJE"],
+            "description": null,
+            "origin": "Rosario",
+            "destiny": "La Habana",
+            "iataOrigin": "LIM",
+            "iataDestiny": "LHB",
+            "days": null,
+            "until": 10,
+            "untilMessage": "Últimos 10 días",
+            "language": "ES-CL",
+            "stock": 4580,
+            "cabin": "Y",
+            "cabinDisplay": " Economy",
+            "flight": {
+                "flightType": "RT",
+                "flightTypeDisplay": "Ida y vuelta",
+                "routeType": null,
+                "routeTypeDisplay": ""
+            },
+            "pricing": {
+                "fareType": "PF",
+                "fareTypeDisplay": "Precio final",
+                "discountTitle": null,
+                "discountText": null,
+                "discount": null,
+                "primary": {
+                    "currency": "€",
+                    "amount": "8970.00",
+                    "currencyDisplay": "€",
+                    "amountDisplay": "8.970",
+                    "priceDisplay": "€ 8.970",
+                    "lastAmount": null,
+                    "lastAmountDisplay": null,
+                    "lastPriceDisplay": null,
+                    "taxAmount": "3900",
+                    "taxCurrency": "€",
+                    "taxAmountDisplay": "3.900",
+                    "taxPriceDisplay": "3.900 €",
+                    "cuotaNumber": 12,
+                    "cuotaAmount": "750",
+                    "cuotaAmountDisplay": "750",
+                    "cuotaPriceDisplay": "750 €"
+                },
+                "secondary": null,
+                "tertiary": {
+                    "currency": "ARS",
+                    "amount": "583.00",
+                    "currencyDisplay": "AR$",
+                    "amountDisplay": "583",
+                    "priceDisplay": "AR$ 583"
+                }
+            },
+            "hotel": null,
+            "car": null,
+            "availableMonths": [],
+            "links": [
+                {
+                    "rel": "conditions",
+                    "href": "/static/latam/data/rates-conditions.json"
+                },
+                {
+                    "rel": "purchase",
+                    "href": "#purchase"
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "type": ["PASAJE"],
+            "description": null,
+            "origin": "Rosario",
+            "destiny": "Santiago de Compostela",
+            "iataOrigin": "ROS",
+            "iataDestiny": "SCP",
+            "days": null,
+            "until": 10,
+            "untilMessage": "Últimos 10 días",
+            "language": "ES-CL",
+            "stock": 23,
+            "cabin": "Y",
+            "cabinDisplay": " Economy",
+            "flight": {
+                "flightType": "RT",
+                "flightTypeDisplay": "Ida y vuelta",
+                "routeType": "D",
+                "routeTypeDisplay": "Vuelo Directo"
+            },
+            "pricing": {
+                "fareType": "PF",
+                "fareTypeDisplay": "Precio final",
+                "discountTitle": null,
+                "discountText": null,
+                "discount": null,
+                "primary": {
+                    "currency": "AR$",
+                    "amount": "8970.00",
+                    "currencyDisplay": "AR$",
+                    "amountDisplay": "8.970",
+                    "priceDisplay": "AR$ 8.970",
+                    "lastAmount": "12970",
+                    "lastAmountDisplay": "12.970",
+                    "lastPriceDisplay": "AR$ 12.970",
+                    "taxAmount": "3900",
+                    "taxCurrency": "AR$",
+                    "taxAmountDisplay": "3.900",
+                    "taxPriceDisplay": "AR$ 3.900",
+                    "cuotaNumber": null,
+                    "cuotaAmount": null,
+                    "cuotaAmountDisplay": null,
+                    "cuotaPriceDisplay": null
+                },
+                "secondary": null,
+                "tertiary": {
+                    "currency": "ARS",
+                    "amount": "583.00",
+                    "currencyDisplay": "AR$",
+                    "amountDisplay": "583",
+                    "priceDisplay": "AR$ 583"
+                }
+            },
+            "hotel": null,
+            "car": null,
+            "availableMonths": [],
+            "links": [
+                {
+                    "rel": "conditions",
+                    "href": "/static/latam/data/rates-conditions2.json"
+                },
+                {
+                    "rel": "purchase",
+                    "href": "#purchase"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "type": ["CANJE"],
+            "description": null,
+            "origin": "Santiago de Chile",
+            "destiny": "Sao Paulo",
+            "iataOrigin": "SCL",
+            "iataDestiny": "SAO",
+            "days": null,
+            "until": 10,
+            "untilMessage": "Últimos 10 días",
+            "language": "ES-CL",
+            "stock": 170,
+            "cabin": "Y",
+            "cabinDisplay": " Economy",
+            "flight": {
+                "flightType": "RT",
+                "flightTypeDisplay": "Ida y vuelta",
+                "routeType": "D",
+                "routeTypeDisplay": "Vuelo Directo"
+            },
+            "pricing": {
+                "fareType": "PF",
+                "fareTypeDisplay": "Más tasas de US$ 120",
+                "discountTitle": null,
+                "discountText": null,
+                "discount": null,
+                "primary": {
+                    "currency": "KMS",
+                    "amount": "7950",
+                    "currencyDisplay": "kms.",
+                    "amountDisplay": "7.950",
+                    "priceDisplay": "7.950 kms.",
+                    "lastAmount": null,
+                    "lastAmountDisplay": null,
+                    "lastPriceDisplay": null,
+                    "taxAmount": "120",
+                    "taxCurrency": "USD",
+                    "taxAmountDisplay": "120",
+                    "taxPriceDisplay": "US$ 120",
+                    "cuotaNumber": null,
+                    "cuotaAmount": null,
+                    "cuotaAmountDisplay": null,
+                    "cuotaPriceDisplay": null
+                },
+                "secondary": null,
+                "tertiary": {
+                    "currency": "ARS",
+                    "amount": "583.00",
+                    "currencyDisplay": "AR$",
+                    "amountDisplay": "583",
+                    "priceDisplay": "AR$ 583"
+                }
+            },
+            "hotel": null,
+            "car": null,
+            "availableMonths": [],
+            "links": [
+                {
+                    "rel": "conditions",
+                    "href": "/static/latam/data/rates-conditions.json"
+                },
+                {
+                    "rel": "purchase",
+                    "href": "#purchase"
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "type": ["CANJE", "DINERO"],
+            "description": null,
+            "origin": "Santiago de Chile",
+            "destiny": "Ciudad de México",
+            "iataOrigin": "SCL",
+            "iataDestiny": "CMX",
+            "days": null,
+            "until": 10,
+            "untilMessage": "Últimos 10 días",
+            "language": "ES-CL",
+            "stock": null,
+            "cabin": "Y",
+            "cabinDisplay": " Economy",
+            "flight": {
+                "flightType": "RT",
+                "flightTypeDisplay": "Ida y vuelta",
+                "routeType": "D",
+                "routeTypeDisplay": "Vuelo Directo"
+            },
+            "pricing": {
+                "fareType": "PF",
+                "fareTypeDisplay": "Precio final",
+                "discountTitle": "Descuento exclusivo para clientes con tarjeta BBVA Banco Francés",
+                "discountText": null,
+                "discount": "30",
+                "primary": {
+                    "currency": "KMS",
+                    "amount": "14000",
+                    "currencyDisplay": "kms.",
+                    "amountDisplay": "14.000",
+                    "priceDisplay": "14.000 kms.",
+                    "lastAmount": null,
+                    "lastAmountDisplay": null,
+                    "lastPriceDisplay": null,
+                    "taxAmount": null,
+                    "taxAmountDisplay": null,
+                    "taxPriceDisplay": null,
+                    "cuotaNumber": null,
+                    "cuotaAmount": null,
+                    "cuotaAmountDisplay": null,
+                    "cuotaPriceDisplay": null
+                },
+                "secondary": {
+                    "currency": "+AR$",
+                    "amount": "1200.00",
+                    "currencyDisplay": "+AR$",
+                    "amountDisplay": "1.200",
+                    "priceDisplay": "+AR$ 1.200"
+                },
+                "tertiary": {
+                    "currency": "ARS",
+                    "amount": "583.00",
+                    "currencyDisplay": "AR$",
+                    "amountDisplay": "583",
+                    "priceDisplay": "AR$ 583"
+                }
+            },
+            "hotel": null,
+            "car": null,
+            "availableMonths": [
+                {
+                    "number": 9,
+                    "name": "Septiembre",
+                    "active": false
+                },
+                {
+                    "number": 10,
+                    "name": "Octubre",
+                    "active": true
+                },
+                {
+                    "number": 11,
+                    "name": "Noviembre",
+                    "active": true
+                },
+                {
+                    "number": 12,
+                    "name": "Diciembre",
+                    "active": true
+                },
+                {
+                    "number": 1,
+                    "name": "Enero",
+                    "active": true
+                },
+                {
+                    "number": 2,
+                    "name": "Febrero",
+                    "active": false
+                },
+                {
+                    "number": 3,
+                    "name": "Marzo",
+                    "active": false
+                },
+                {
+                    "number": 4,
+                    "name": "Abril",
+                    "active": true
+                },
+                {
+                    "number": 5,
+                    "name": "Marzo",
+                    "active": false
+                }
+            ],
+            "links": [
+                {
+                    "rel": "conditions",
+                    "href": "/static/latam/data/rates-conditions.json"
+                },
+                {
+                    "rel": "purchase",
+                    "href": "#purchase"
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "type": ["PASAJE", "HOTEL", "AUTO"],
+            "description": "Programa válido para dos personas en habitación doble",
+            "origin": "Medellín",
+            "destiny": "Santiago de Chile",
+            "iataOrigin": "MDE",
+            "iataDestiny": "SCL",
+            "days": 6,
+            "until": 10,
+            "untilMessage": "Últimos 10 días",
+            "language": "ES-CL",
+            "stock": 30,
+            "cabin": "Y",
+            "cabinDisplay": " Economy",
+            "programDays": 2,
+            "programDaysDisplay": "2 Días",
+            "packageDescription": "Pasajes + Traslados+ 7 noches en <strong>Hotel Memories Varadero</strong> 3* + Sistema Todo Incluido.",
+            "flight": {
+                "flightType": "RT",
+                "flightTypeDisplay": "Ida y vuelta",
+                "routeType": null,
+                "routeTypeDisplay": ""
+            },
+            "pricing": {
+                "fareType": "PF",
+                "fareTypeDisplay": "Precio final",
+                "discountTitle": "Descuento exclusivo para clientes con tarjeta BBVA Banco Francés",
+                "discountText": "El descuento se verá reflejado en el paso 3 del proceso de compra y se aplicará solo sobre la tarifa base seleccionada en naranjo dentro de la matriz de precios seleccionada. Si tienes dudas revisa los términos y condiciones de esta promoción.",
+                "discount": "30",
+                "primary": {
+                    "currency": "CLP",
+                    "amount": "53000.00",
+                    "currencyDisplay": "$",
+                    "amountDisplay": "53.00",
+                    "priceDisplay": "$ 53.000",
+                    "kms": "1000",
+                    "lastAmount": "1300",
+                    "lastAmountDisplay": "1.300",
+                    "lastPriceDisplay": "1.300 kms",
+                    "taxAmount": "70",
+                    "taxCurrency": "USD",
+                    "taxAmountDisplay": "70",
+                    "taxPriceDisplay": "US$ 70",
+                    "cuotaNumber": null,
+                    "cuotaAmount": null,
+                    "cuotaAmountDisplay": null,
+                    "cuotaPriceDisplay": null
+                },
+                "secondary": {
+                    "currency": null,
+                    "amount": null,
+                    "currencyDisplay": null,
+                    "amountDisplay": null,
+                    "priceDisplay": null
+                },
+                "tertiary": {
+                    "currency": "ARS",
+                    "amount": "583.00",
+                    "currencyDisplay": "AR$",
+                    "amountDisplay": "583",
+                    "priceDisplay": "AR$ 583"
+                }
+            },
+            "hotel": {
+                "hotelName": "hotel sierra mike",
+                "hotelCategory": 5,
+                "hotelDaysQuantity": 5,
+                "hotelNightsQuantity": 4,
+                "stayDisplay": "4 días / 3 noches"
+            },
+            "car": {
+                "carDaysRent": 3,
+                "daysDisplay": "3 días de arriendo"
+            },
+            "availableMonths": [],
+            "links": [
+                {
+                    "rel": "conditions",
+                    "href": "/static/latam/data/rates-conditions.json"
+                },
+                {
+                    "rel": "purchase",
+                    "href": "#purchase"
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "type": ["PASAJE", "HOTEL"],
+            "description": "Programa válido para dos personas en habitación doble",
+            "origin": "Medellín",
+            "destiny": "Santiago de Chile",
+            "iataOrigin": "MDE",
+            "iataDestiny": "SCL",
+            "days": 6,
+            "until": null,
+            "untilMessage": null,
+            "language": "ES-CL",
+            "stock": 16,
+            "cabin": "Y",
+            "cabinDisplay": " Premium Economy",
+            "programDays": 3,
+            "programDaysDisplay": "2 Días",
+            "packageDescription": "Pasajes + Traslados+ 7 noches en <strong>Hotel Memories Varadero</strong> 3* + Sistema Todo Incluido.",
+            "flight": {
+                "flightType": "RT",
+                "flightTypeDisplay": "Ida y vuelta",
+                "routeType": null,
+                "routeTypeDisplay": ""
+            },
+            "pricing": {
+                "fareType": "PF",
+                "fareTypeDisplay": "Precio final",
+                "discountTitle": "Descuento exclusivo para clientes con tarjeta BBVA Banco Francés",
+                "discountText": "El descuento se verá reflejado en el paso 3 del proceso de compra y se aplicará solo sobre la tarifa base seleccionada en naranjo dentro de la matriz de precios seleccionada. Si tienes dudas revisa los términos y condiciones de esta promoción.",
+                "discount": "25",
+                "primary": {
+                    "currency": "KMS",
+                    "amount": "200,000",
+                    "currencyDisplay": "KMS",
+                    "amountDisplay": "200,000",
+                    "priceDisplay": "200,000 KMS",
+                    "lastAmount": null,
+                    "lastAmountDisplay": null,
+                    "lastPriceDisplay": null,
+                    "taxAmount": null,
+                    "taxCurrency": null,
+                    "taxAmountDisplay": null,
+                    "taxPriceDisplay": null,
+                    "cuotaNumber": null,
+                    "cuotaAmount": null,
+                    "cuotaAmountDisplay": null,
+                    "cuotaPriceDisplay": null
+                },
+                "secondary": {
+                    "currency": "$",
+                    "amount": "725.00",
+                    "currencyDisplay": "$",
+                    "amountDisplay": "725.00",
+                    "priceDisplay": "$ 275.00"
+                },
+                "tertiary": {
+                    "currency": "ARS",
+                    "amount": "583.00",
+                    "currencyDisplay": "AR$",
+                    "amountDisplay": "583",
+                    "priceDisplay": "AR$ 583"
+                }
+            },
+            "hotel": {
+                "hotelName": "hotel sierra mike",
+                "hotelCategory": 5,
+                "hotelDaysQuantity": 5,
+                "hotelNightsQuantity": 4,
+                "stayDisplay": "4 días / 3 noches"
+            },
+            "car": {
+                "carDaysRent": 3,
+                "daysDisplay": "3 días de arriendo"
+            },
+            "availableMonths": [
+              {
+                "number": 9,
+                "name": "Septiembre",
+                "active": false
+              },
+              {
+                "number": 10,
+                "name": "Octubre",
+                "active": true
+              },
+              {
+                "number": 11,
+                "name": "Noviembre",
+                "active": true
+              },
+              {
+                "number": 12,
+                "name": "Diciembre",
+                "active": true
+              },
+              {
+                "number": 1,
+                "name": "Enero",
+                "active": true
+              },
+              {
+                "number": 2,
+                "name": "Febrero",
+                "active": false
+              },
+              {
+                "number": 3,
+                "name": "Marzo",
+                "active": false
+              },
+              {
+                "number": 4,
+                "name": "Abril",
+                "active": true
+              },
+              {
+                "number": 5,
+                "name": "Mayo",
+                "active": false
+              }
+            ],
+            "links": [
+                {
+                    "rel": "conditions",
+                    "href": "/static/latam/data/rates-conditions.json"
+                },
+                {
+                    "rel": "purchase",
+                    "href": "#purchase"
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "type": ["PASAJE"],
+            "description": null,
+            "origin": "Antofagasta",
+            "destiny": "Santiago de Chile",
+            "iataOrigin": "ANF",
+            "iataDestiny": "SCL",
+            "days": null,
+            "until": null,
+            "untilMessage": null,
+            "language": "ES-CL",
+            "stock": 60,
+            "cabin": "Y",
+            "cabinDisplay": "Economy",
+            "flight": {
+                "flightType": "RT",
+                "flightTypeDisplay": "Ida y vuelta",
+                "routeType": "D",
+                "routeTypeDisplay": "Vuelo Directo"
+            },
+            "pricing": {
+                "fareType": "PF",
+                "fareTypeDisplay": "Precio final",
+                "discountTitle": null,
+                "discountText": null,
+                "discount": null,
+                "primary": {
+                    "currency": "$",
+                    "amount": "180.000",
+                    "currencyDisplay": "$",
+                    "amountDisplay": "180.000",
+                    "priceDisplay": "$ 180.000",
+                    "lastAmount": null,
+                    "lastAmountDisplay": null,
+                    "lastPriceDisplay": null,
+                    "taxAmount": "100",
+                    "taxCurrency": "USD",
+                    "taxAmountDisplay": "100",
+                    "taxPriceDisplay": "US$ 100",
+                    "cuotaNumber": null,
+                    "cuotaAmount": null,
+                    "cuotaAmountDisplay": null,
+                    "cuotaPriceDisplay": null
+                },
+                "secondary": null,
+                "tertiary": null
+            },
+            "hotel": null,
+            "car": null,
+            "availableMonths": [],
+            "links": [
+                {
+                    "rel": "conditions",
+                    "href": "assets/data/rates-conditions.json"
+                },
+                {
+                    "rel": "purchase",
+                    "href": "#purchase"
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "type": ["PASAJE", "HOTEL"],
+            "description": "Pasajes + Traslados+ 7 noches en <strong>Hotel Memories Varadero</strong> 3* + Sistema Todo Incluido.",
+            "origin": "Santiago de Chile",
+            "destiny": "Córdoba",
+            "iataOrigin": "SCL",
+            "iataDestiny": "COR",
+            "days": 4,
+            "until": null,
+            "untilMessage": null,
+            "language": "ES-CL",
+            "stock": null,
+            "cabin": "Y",
+            "cabinDisplay": "Economy",
+            "packageDescription": "Pasajes + Traslados+ 7 noches en <strong>Hotel Memories Varadero</strong> 3* + Sistema Todo Incluido.",
+            "flight": {
+                "flightType": "RT",
+                "flightTypeDisplay": "Ida y vuelta",
+                "routeType": "D",
+                "routeTypeDisplay": "Vuelo Directo"
+            },
+            "pricing": {
+                "fareType": "PF",
+                "fareTypeDisplay": "Precio final",
+                "discountTitle": null,
+                "discountText": null,
+                "discount": null,
+                "primary": {
+                    "currency": "US$",
+                    "amount": "540",
+                    "currencyDisplay": "US$",
+                    "amountDisplay": "540",
+                    "priceDisplay": "US$ 540",
+                    "lastAmount": null,
+                    "lastAmountDisplay": null,
+                    "lastPriceDisplay": null,
+                    "taxAmount": null,
+                    "taxCurrency": null,
+                    "taxAmountDisplay": null,
+                    "taxPriceDisplay": null,
+                    "cuotaNumber": null,
+                    "cuotaAmount": null,
+                    "cuotaAmountDisplay": null,
+                    "cuotaPriceDisplay": null
+                },
+                "secondary": {
+                    "currency": "$",
+                    "amount": "341.712",
+                    "currencyDisplay": "$",
+                    "amountDisplay": "341.712",
+                    "priceDisplay": "$ 341.712"
+                },
+                "tertiary": null
+            },
+            "hotel": {
+                "hotelName": "hotel xumak",
+                "hotelCategory": 5,
+                "hotelDaysQuantity": 4,
+                "hotelNightsQuantity": 3,
+                "stayDisplay": "4 días / 3 noches"
+            },
+            "car": null,
+            "availableMonths": [],
+            "links": [
+                {
+                    "rel": "conditions",
+                    "href": "assets/data/rates-conditions.json"
+                },
+                {
+                    "rel": "purchase",
+                    "href": "#purchase"
+                }
+            ]
+        }
+    ]
+}

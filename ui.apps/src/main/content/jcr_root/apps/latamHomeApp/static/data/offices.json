@@ -1,0 +1,23 @@
+{
+  "offices": [
+    {
+      "place":"Centro Comercial Premium Plaza",
+      "address": "Carrera 43a No 30 – 25, local 1275.",
+      "schedule":[
+        "Lunes a sábado: 09:00 - 20:00 hrs. (Jornada continua)"
+      ],
+      "lat": 6.229439,
+      "lng": -75.570124
+    },
+    {
+      "place":"Centro Comercial Sao Paulo Plaza local 58-60.",
+      "address": "Calle 18C sur Nº 43A",
+      "schedule":[
+        "Lunes a viernes 08:00 - 18:00 hrs.",
+        "Sábado: 09:00 – 12:00 hrs."
+      ],
+      "lat": 6.184351,
+      "lng": -75.579488
+    }
+  ]
+}

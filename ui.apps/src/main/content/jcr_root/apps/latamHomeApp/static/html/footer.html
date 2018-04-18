@@ -1,0 +1,100 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+
+
+
+<div xk-section-styles="xk-component xk-section-base "></div>
+
+
+
+    <link rel="stylesheet" href="//localhost:4502/static/latam/styles/external/bootstrap.min.css">
+    <link rel="stylesheet" href="//s.latamstatic.com/layout/ui/3/css/global.min.css">
+
+
+
+    <link rel="stylesheet" href="//s.latamstatic.com/layout/ui/3/css/latam-mu.min.css" type="text/css">
+
+    <link rel="stylesheet" href="//localhost:4502/etc/designs/latamApp/clientlibs/latam.min.css" type="text/css">
+
+    <link rel="stylesheet" href="//localhost:4502/etc/designs/latamApp/clientlibs/header/rendering-latam.min.css" type="text/css">
+
+    <link rel="stylesheet" href="//localhost:4502/etc/designs/latamApp/clientlibs/footer/rendering-latam.min.css" type="text/css">
+
+
+
+
+
+
+</head>
+
+<body ng-app="latamApp">
+
+<header class="Header"
+        header
+        template-header="//localhost:4502/es_cl/header-footer/_jcr_content/header.html"
+        template-nav="//localhost:4502/es_cl/header-footer/_jcr_content/header/headerMenu.html"
+        template-countryselector="//localhost:4502/es_cl/header-footer/_jcr_content/header/countrySelector.html"
+        template-cookieterms="//localhost:4502/es_cl/header-footer/_jcr_content/header/cookieTerms.html"
+        role="banner"
+        tam="true"
+        logo="/static/latam/images/content-image/header/logo-latam-mu.svg"
+        logo-desktop=""
+        logo-sticky="/static/latam/images/content-image/header/latam-logo-sticky.svg"
+        logo-process="/static/latam/images/content-image/header/logo_latam_color.svg"
+        ng-controller="HeaderCtrl"
+        inverse="true"
+        demo=""
+        process="true"
+        login-url="https://ssl.staging4.qa.lan.com/ws/api/identity/v1/rest/authentication"
+        sr-text=""
+        sr-title=""
+        login-template-url="//localhost:4502/es_cl/header-footer/_jcr_content/header/loginProfileAction.html"
+        selected-index-nav=""
+>
+</header>
+
+<div footer tam="false"
+	process="true"	
+    payment="false" 
+    class="FooterComponent" template-url="//localhost:4502/es_cl/header-footer/_jcr_content/footer.html">
+</div>
+
+
+
+<script src="//localhost:4502/etc/designs/latamApp/clientlibs/static/jquery.min.js" type="text/javascript"></script>
+<script src="//localhost:4502/etc/designs/latamApp/clientlibs/static/utils.min.js" type="text/javascript"></script>
+<script src="//localhost:4502/static/latam/scripts/angular/angular.min.js" type="text/javascript"></script>
+<script src="//localhost:4502/etc/designs/latamApp/clientlibs/static/angular.min.js" type="text/javascript"></script>
+<script>
+    
+
+
+    app.airline = "latam";
+
+    app.lang = "es";
+
+
+
+    app.whitelist = [
+        "prueba.com",
+        "lan.com",
+        "localhost",
+        "54.148.59.238",
+        "127.0.0.1"
+    ];
+
+</script>
+<script src="" type="text/javascript"></script>
+<script src="//localhost:4502/etc/designs/latamCommonsApp/clientlibs/latamCommons.min.js" type="text/javascript"></script>
+<script src="//localhost:4502/etc/designs/latamApp/clientlibs/angularjs.js" type="text/javascript"></script>
+<script src="//localhost:4502/etc/designs/latamApp/clientlibs/rendering.min.js" type="text/javascript"></script>
+
+
+
+
+
+</body>
+
+
+</html>

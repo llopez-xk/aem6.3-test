@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:ClientLibraryFolder"
+    categories="[latam.template.sub-home-basico]"
+    embed="[latam.dependencies.slick,latam.encabezado.component,latam.encabezado-subhome-basico.component,latam.slider.component,latam.bookingbox.component,latam.colapsable-oficinas.component,latam.banner-informacion-generica.component]"/>

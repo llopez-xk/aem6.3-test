@@ -1,0 +1,50 @@
+<div class="HomeSlider-container" ng-class="::{ 'HomeSlider-container--dark': titleDark }">
+    <div class="container HomeSlider-zonesContainer">
+        <div class="HomeSlider-zone HomeSlider-zone--top">
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-md-offset-1 HomeSlider-topCols">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-zone--innerTop HomeSlider-tableCell {{ ::logoAlign }}">
+                                <picture ng-if="(logoDesktop && logoMobile)">
+                                    <source media="(min-width: 768px)" ng-srcset="{{ ::logoDesktop }}">
+                                    <source media="(max-width: 767px)" ng-srcset="{{ ::logoMobile }}">
+                                    <img ng-src="{{ ::logoDesktop }}" alt="{{ ::logoAlt }}" class="HomeSlider-logo" />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="HomeSlider-zone HomeSlider-zone--middle">
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-md-offset-1 HomeSlider-middleCols">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-description HomeSlider-zone--middle HomeSlider-tableCell {{ ::descriptionAlign }}" ng-class="::{ 'HomeSlider-description--dark': titleDark }">
+                                <p class="HomeSlider-descriptionText">{{ ::description }}</p>
+                                <a class="HomeSlider-conditions fourth-level flat-large" href="{{ ::rate.link }}" ng-if="::rateConditions" ng-bind="::rateConditions"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="HomeSlider-zone HomeSlider-zone--bottom">
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-md-offset-1 HomeSlider-bottomCols">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-tableCell {{ ::buttonAlign }}">
+                                <a href="{{ ::buttonLink }}" class="HomeSlider-button btn-flat flat-medium third-level third-negative" target="{{buttonLinkBlank}}">
+                  					<span class="HomeSlider-buttonText" ng-bind="::buttonText"></span>
+                				</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="HomeSlider-container">
+    <div class="container">
+        <div class="HomeSlider-zone HomeSlider-zone--bigger">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-zone--bigger HomeSlider-tableCell {{ ::titleAlign }}">
+                                <h3 class="HomeSlider-title" ng-class="::{ 'HomeSlider-title--dark': titleDark }" ng-bind="::title"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="HomeSlider-zone HomeSlider-zone--bottom">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-tableCell {{ ::buttonAlign }}">
+                                <a ng-href="{{ ::buttonLink }}" class="HomeSlider-button"><span class="HomeSlider-buttonText" ng-bind="::buttonText"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

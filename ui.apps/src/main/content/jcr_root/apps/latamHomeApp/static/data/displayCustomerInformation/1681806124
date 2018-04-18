@@ -1,0 +1,17 @@
+{
+    "customerInformation" : {
+        "firstName":"Marcia", 
+        "lastName":"Pereira", 
+        "gender":"F", 
+        "pointsBalance":250,
+        "isFid": true, 
+        "isEBuyer": false,
+        "isMultiplus": false,
+        "loyaltyTier": "COMODORO"
+    }, 
+    "serviceStatus" : {
+        "code":0, 
+        "message":"", 
+        "nativeMessage":""
+    }
+}

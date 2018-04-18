@@ -1,0 +1,158 @@
+{
+  "caption": 
+  {
+    "text": "Salones VIP",
+    "align": "center"
+  },
+  "header": 
+  [
+    
+    {
+      "value": "Aeropuerto",
+      "align": "center"
+    },
+    
+    {
+      "value": "Horarios de atención",
+      "align": "center"
+    },
+    
+    {
+      "value": "Ubicación",
+      "align": "center"
+    },
+    
+    {
+      "value": "Servicios",
+      "align": "center"
+    },
+    
+    {
+      "value": "Pertenece a",
+      "align": "center"
+    }
+  ],
+  "order": 
+  [
+    "aeropuerto",
+    "horarios",
+    "ubicacion",
+    "servicios",
+    "pertenece"
+  ],
+  "items": 
+  [
+    
+    {
+      "aeropuerto": 
+      {
+        "align": "center",
+        "value": "Auckland - Aeropuerto internacional de Auckland"
+      },
+      "horarios": 
+      {
+        "align": "center",
+        "value": "04:00 - 19:00 hrs."
+      },
+      "ubicacion": 
+      {
+        "align": "center",
+        "value": "En la zona de tránsito y Duty Free"
+      },
+      "servicios": 
+      {
+        "align": "center",
+        "value": "Aperitivos, bebidas, bar, acceso a internet, teléfonos, TV, bussiness con internet y duchas"
+      },
+      "pertenece": 
+      {
+        "align": "center",
+        "value": "Qantas"
+      }
+    },
+    
+    {
+      "aeropuerto": 
+      {
+        "align": "center",
+        "value": "Medellín - Aeropuerto internacional José María Córdova"
+      },
+      "horarios": 
+      {
+        "align": "center",
+        "value": "05:00 - 20:00 hrs."
+      },
+      "ubicacion": 
+      {
+        "align": "center",
+        "value": "En la zona de tránsito y Duty Free también"
+      },
+      "servicios": 
+      {
+        "align": "center",
+        "value": "Aperitivos, bebidas, acceso a internet, teléfonos, TV."
+      },
+      "pertenece": 
+      {
+        "align": "center",
+        "value": "LAN"
+      }
+    },
+    
+    {
+      "aeropuerto": 
+      {
+        "align": "center",
+        "value": "Bogotá - Aeropuerto El Dorado"
+      },
+      "horarios": 
+      {
+        "align": "center",
+        "value": "04:00 - 19:00 hrs."
+      },
+      "ubicacion": 
+      {
+        "align": "center",
+        "value": "En una zona diferente"
+      },
+      "servicios": 
+      {
+        "align": "center",
+        "value": "Bar, acceso a internet, teléfonos, TV, bussiness con internet y duchas"
+      },
+      "pertenece": 
+      {
+        "align": "center",
+        "value": "Aeromexico"
+      }
+    },
+    
+    {
+      "aeropuerto": 
+      {
+        "align": "center",
+        "value": "Guayaquil - Aeropuerto internacional José Joaquín de Olmedo"
+      },
+      "horarios": 
+      {
+        "align": "center",
+        "value": "06:00 - 21:00 hrs."
+      },
+      "ubicacion": 
+      {
+        "align": "center",
+        "value": "Este también está ubicado en una zona distinta de las mencionadas anteriormente"
+      },
+      "servicios": 
+      {
+        "align": "center",
+        "value": "Bar, acceso a internet, teléfonos, TV, bussiness con internet y duchas"
+      },
+      "pertenece": 
+      {
+        "align": "center",
+        "value": "Japan Airlines"
+      }
+    }
+  ]
+}

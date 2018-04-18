@@ -1,0 +1,33 @@
+app.environment = 'production';
+<sly data-sly-test="${globalProperties.siteStyle == 'tam'}">
+	app.airline = "tam";
+</sly>
+<sly data-sly-test="${globalProperties.siteStyle == 'lan'}">
+	app.airline = "lan";
+</sly>
+<sly data-sly-test="${globalProperties.siteStyle == 'latam'}">
+	app.airline = <sly data-sly-test.lan="${globalProperties.siteType == 'lan'}">"lan"</sly><sly data-sly-test="${!lan}">"tam"</sly>;
+</sly>
+	app.lang = "${globalProperties.siteLanguage}";
+<sly data-sly-test="${globalProperties.siteStyle == 'tam'}">
+    app.whitelist = [
+        "tam.com",
+        "www.tam.com.br"
+    ];
+</sly>
+<sly data-sly-test="${globalProperties.siteStyle == 'lan'}">
+    app.whitelist = [
+        "lan.com"
+    ];
+</sly>
+<sly data-sly-test="${globalProperties.siteStyle == 'latam'}">
+    app.whitelist = [
+        "lan.com"
+    ];
+</sly>
+
+app.userMilesLabels = {
+    LF: '#% LABEL_MONEDA_PUNTOS%#',
+    TM: '#% LABEL_MONEDA_PUNTOS%#',
+    LP: '#% LABEL_MONEDA_KMS%#'
+};

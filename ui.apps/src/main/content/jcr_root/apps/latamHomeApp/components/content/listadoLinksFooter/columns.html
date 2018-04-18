@@ -1,0 +1,12 @@
+{%#if this.istitle  %}
+    </ul>
+    <h3 class="footer-headLineH3 voffset35"> {% this.title  %} </h3>
+    <ul class="footer-unorderedList">
+{% else  %}
+    <li class="footer-unorderedItem--links">
+      <a class="footer-unorderedLink footer-unorderedLink--links" href="{% link.path %}"
+        target="{% link.target %}" title="{% link.alttext %}">
+        {% link.title %}
+      </a>
+    </li>
+{%/if%}

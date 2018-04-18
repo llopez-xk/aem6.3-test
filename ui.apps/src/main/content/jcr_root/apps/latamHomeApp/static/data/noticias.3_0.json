@@ -1,0 +1,33 @@
+{
+  "result" : {
+    "total" : "40",
+    "limit" : "10",
+    "offset" : "0",
+    "elements" : [
+      {
+        "type"    : "Noticia",
+        "title"   : "TRES 1 - LAN suma aviones Teletón que volarán las rutas nacionales con el logo de la compañía",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+          "url"     : "http://www.lan.com"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "TRES 2 - LAN suma aviones Teletón que volarán las rutas nacionales con el logo de la compañía",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+          "url"     : "http://www.yahoo.com"
+      },
+      {
+        "type"    : "Noticia",
+        "title"   : "TRES 3 - LAN suma aviones Teletón que volarán las rutas nacionales con el logo de la compañía",
+        "description"  : "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+        "date"   : "Viernes 14 de Noviembre de 2014, 18:30 hora local",
+        "place"   : "Santiago de Chile",
+          "url"     : "http://www.google.com"
+      }
+    ]
+  }
+}

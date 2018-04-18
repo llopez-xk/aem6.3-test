@@ -1,0 +1,9 @@
+<!-- Modal template for welcomeLayer -->
+<script type="text/ng-template" id="WelcomeLayer">
+  <p class="sr-only" ng-bind="::ngDialogData.description"></p>
+  <div class="WelcomeLayer-buttons" ng-if="::ngDialogData.buttons">
+    <a class="WelcomeLayer-button Btn btn-flat flat-medium" ng-class="::{'first-level': $index === 0, 'third-level': $index === 1, 'third-negative': button.negative}" ng-href="{{ ::button.url }}" ng-repeat="button in ::ngDialogData.buttons track by $index">
+      <span ng-bind="::button.label"></span>
+    </a>
+  </div>
+</script>

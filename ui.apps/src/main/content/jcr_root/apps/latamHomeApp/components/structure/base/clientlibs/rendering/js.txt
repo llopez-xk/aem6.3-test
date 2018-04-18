@@ -1,0 +1,4 @@
+#base=js
+
+angularjs/app.js
+angularjs/directives.js

@@ -1,0 +1,21 @@
+<div id="cp-page" ng-app="latamApp" xk-path="${currentPage.path}" class="xk-component xk-page " data-locale="es_CL" data-pais="CL">
+
+    <script type="text/javascript">
+        var dataLayer = dataLayer || [],
+            isMobileRegEx = /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Opera Mini|webOS/,
+            mobileDevice = (isMobileRegEx.test(navigator.userAgent))? '1': '0';
+            dataLayer.push({
+                'datos-global': {'mobile': mobileDevice}
+            });
+    </script>
+
+    <div data-sly-include="shared-scripts/gtm-script.html" data-sly-unwrap></div>
+    <div data-sly-include="header.html" data-sly-unwrap></div>
+    <main role="main" class="ha-waypoint" id="maincontent" tabindex="-1">
+        <div data-sly-include="content.html" data-sly-unwrap></div>
+    </main>
+    <div data-sly-include="footer.html" data-sly-unwrap></div>
+
+    <img src="https://ssl.lan.com/akamai/pcom/es_cl.gif" class="sr-only" aria-hidden="true" />
+
+</div>

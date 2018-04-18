@@ -1,0 +1,1140 @@
+{
+  "campaigns": [
+    {
+      "campaignDatesDisplayType": null,
+      "id": 72,
+      "name": "Test Felipe - Nao alterar",
+      "offers": [
+        {
+          "id": 164,
+          "flightInformation": {
+            "departure": {
+              "name": "Recife",
+              "type": "AIRPORT",
+              "code": "SDU",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "RIO",
+              "singleAirport": false
+            },
+            "destination": {
+              "name": "Curitiba",
+              "type": "AIRPORT",
+              "code": "CNF",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "BHZ",
+              "singleAirport": false
+            },
+            "travelPeriod": {
+              "startDate": 1435708800000,
+              "endDate": 1440979200000,
+              "startMonth": "July",
+              "endMonth": "August",
+              "endYear": "2015"
+            },
+            "tripType": "R",
+            "cabinClass": "",
+            "bookingClass": " ",
+            "defaultStay": 7,
+            "listDepartureLocations": [],
+            "listDestinationLocations": [],
+            "isInternationalDeparture": false,
+            "isInternationalDestination": false
+          },
+          "priceInformation": {
+            "price": null,
+            "convertedPrice": null,
+            "points": 7000,
+            "marketCurrencyCode": null,
+            "convertedCurrencyCode": null,
+            "exchangeRate": null,
+            "exchangeDate": null,
+            "installment": {
+              "number": null,
+              "price": null
+            }
+          },
+          "salesPeriod": {
+            "startDate": 1433185200000,
+            "endDate": 1441047600000,
+            "startMonth": "June",
+            "endMonth": "August",
+            "endYear": "2015"
+          },
+          "blackoutPeriods": [],
+          "fareRulesHTML": "Tarifa “a partir de” por trecho",
+          "type": "REGULAR",
+          "priority": 1,
+          "position": null,
+          "revenueFlowURL": "http://wav.tam.com.br:80/TAM_CM/dyn/campaign/selectOffer?B_DATE_1=201507010000&WDS_DOMAIN_NAME=wav.tam.com.br&B_DATE_2=201507080000&LANGUAGE=GB&WDS_MARKET=BR&children=0&SITE=TAMCTAMC&FLAT_OUTBOUND_DATE_RANGE_VALUE=61&TRIP_DURATION=7&adults=1&ENC=439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42&MODE=REV&B_LOCATION_CODE_1=SDU&E_LOCATION_CODE_1=CNF&FLAT_OUTBOUND_DATE=201507010000&TRIP_TYPE=R&infants=0&CURRENCY_CODE=BRL&WDS_OPEN_CALD=true",
+          "redemptionFlowURL": null,
+          "revenueFlowParams": {
+            "B_DATE_1": "201507010000",
+            "WDS_DOMAIN_NAME": "wav.tam.com.br",
+            "B_DATE_2": "201507080000",
+            "B_LOCATION_1": "SDU",
+            "LANGUAGE": "GB",
+            "WDS_MARKET": "BR",
+            "children": "0",
+            "E_LOCATION_1": "CNF",
+            "SITE": "TAMCTAMC",
+            "adults": "1",
+            "ENC": "439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42",
+            "MODE": "REV",
+            "TRIP_TYPE": "R",
+            "infants": "0",
+            "WDS_OPEN_CALD": "true"
+          },
+          "redemptionFlowParams": null,
+          "minimumStay": null,
+          "maximumStay": null,
+          "advancedPurchase": null,
+          "htmlTeaser": ""
+        },
+        {
+          "id": 165,
+          "flightInformation": {
+            "departure": {
+              "name": "Curitiba",
+              "type": "AIRPORT",
+              "code": "SDU",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "RIO",
+              "singleAirport": false
+            },
+            "destination": {
+              "name": "Foz de Iguaçu",
+              "type": "AIRPORT",
+              "code": "CNF",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "BHZ",
+              "singleAirport": false
+            },
+            "travelPeriod": {
+              "startDate": 1435708800000,
+              "endDate": 1440979200000,
+              "startMonth": "July",
+              "endMonth": "August",
+              "endYear": "2015"
+            },
+            "tripType": "R",
+            "cabinClass": "",
+            "bookingClass": " ",
+            "defaultStay": 7,
+            "listDepartureLocations": [],
+            "listDestinationLocations": [],
+            "isInternationalDeparture": false,
+            "isInternationalDestination": false
+          },
+          "priceInformation": {
+            "price": null,
+            "convertedPrice": null,
+            "points": 120000,
+            "marketCurrencyCode": null,
+            "convertedCurrencyCode": null,
+            "exchangeRate": null,
+            "exchangeDate": null,
+            "installment": {
+              "number": null,
+              "price": null
+            }
+          },
+          "salesPeriod": {
+            "startDate": 1433185200000,
+            "endDate": 1441047600000,
+            "startMonth": "June",
+            "endMonth": "August",
+            "endYear": "2015"
+          },
+          "blackoutPeriods": [],
+          "fareRulesHTML": "Tarifa “a partir de” por trecho",
+          "type": "REGULAR",
+          "priority": 1,
+          "position": null,
+          "revenueFlowURL": "http://wav.tam.com.br:80/TAM_CM/dyn/campaign/selectOffer?B_DATE_1=201507010000&WDS_DOMAIN_NAME=wav.tam.com.br&B_DATE_2=201507080000&LANGUAGE=GB&WDS_MARKET=BR&children=0&SITE=TAMCTAMC&FLAT_OUTBOUND_DATE_RANGE_VALUE=61&TRIP_DURATION=7&adults=1&ENC=439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42&MODE=REV&B_LOCATION_CODE_1=SDU&E_LOCATION_CODE_1=CNF&FLAT_OUTBOUND_DATE=201507010000&TRIP_TYPE=R&infants=0&CURRENCY_CODE=BRL&WDS_OPEN_CALD=true",
+          "redemptionFlowURL": null,
+          "revenueFlowParams": {
+            "B_DATE_1": "201507010000",
+            "WDS_DOMAIN_NAME": "wav.tam.com.br",
+            "B_DATE_2": "201507080000",
+            "B_LOCATION_1": "SDU",
+            "LANGUAGE": "GB",
+            "WDS_MARKET": "BR",
+            "children": "0",
+            "E_LOCATION_1": "CNF",
+            "SITE": "TAMCTAMC",
+            "adults": "1",
+            "ENC": "439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42",
+            "MODE": "REV",
+            "TRIP_TYPE": "R",
+            "infants": "0",
+            "WDS_OPEN_CALD": "true"
+          },
+          "redemptionFlowParams": null,
+          "minimumStay": null,
+          "maximumStay": null,
+          "advancedPurchase": null,
+          "htmlTeaser": ""
+        },
+        {
+          "id": 166,
+          "flightInformation": {
+            "departure": {
+              "name": "Sao Paulo",
+              "type": "AIRPORT",
+              "code": "SDU",
+              "airportName": "(Guarulhos)",
+              "countryCode": "BR",
+              "cityCode": "RIO",
+              "singleAirport": false
+            },
+            "destination": {
+              "name": "Curitiba",
+              "type": "AIRPORT",
+              "code": "CNF",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "BHZ",
+              "singleAirport": false
+            },
+            "travelPeriod": {
+              "startDate": 1435708800000,
+              "endDate": 1440979200000,
+              "startMonth": "July",
+              "endMonth": "August",
+              "endYear": "2015"
+            },
+            "tripType": "R",
+            "cabinClass": "",
+            "bookingClass": " ",
+            "defaultStay": 7,
+            "listDepartureLocations": [],
+            "listDestinationLocations": [],
+            "isInternationalDeparture": false,
+            "isInternationalDestination": false
+          },
+          "priceInformation": {
+            "price": null,
+            "convertedPrice": null,
+            "points": 59000,
+            "marketCurrencyCode": null,
+            "convertedCurrencyCode": null,
+            "exchangeRate": null,
+            "exchangeDate": null,
+            "installment": {
+              "number": null,
+              "price": null
+            }
+          },
+          "salesPeriod": {
+            "startDate": 1433185200000,
+            "endDate": 1441047600000,
+            "startMonth": "June",
+            "endMonth": "August",
+            "endYear": "2015"
+          },
+          "blackoutPeriods": [],
+          "fareRulesHTML": "Tarifa “a partir de” por trecho",
+          "type": "REGULAR",
+          "priority": 1,
+          "position": null,
+          "revenueFlowURL": "http://wav.tam.com.br:80/TAM_CM/dyn/campaign/selectOffer?B_DATE_1=201507010000&WDS_DOMAIN_NAME=wav.tam.com.br&B_DATE_2=201507080000&LANGUAGE=GB&WDS_MARKET=BR&children=0&SITE=TAMCTAMC&FLAT_OUTBOUND_DATE_RANGE_VALUE=61&TRIP_DURATION=7&adults=1&ENC=439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42&MODE=REV&B_LOCATION_CODE_1=SDU&E_LOCATION_CODE_1=CNF&FLAT_OUTBOUND_DATE=201507010000&TRIP_TYPE=R&infants=0&CURRENCY_CODE=BRL&WDS_OPEN_CALD=true",
+          "redemptionFlowURL": null,
+          "revenueFlowParams": {
+            "B_DATE_1": "201507010000",
+            "WDS_DOMAIN_NAME": "wav.tam.com.br",
+            "B_DATE_2": "201507080000",
+            "B_LOCATION_1": "SDU",
+            "LANGUAGE": "GB",
+            "WDS_MARKET": "BR",
+            "children": "0",
+            "E_LOCATION_1": "CNF",
+            "SITE": "TAMCTAMC",
+            "adults": "1",
+            "ENC": "439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42",
+            "MODE": "REV",
+            "TRIP_TYPE": "R",
+            "infants": "0",
+            "WDS_OPEN_CALD": "true"
+          },
+          "redemptionFlowParams": null,
+          "minimumStay": null,
+          "maximumStay": null,
+          "advancedPurchase": null,
+          "htmlTeaser": ""
+        },
+        {
+          "id": 167,
+          "flightInformation": {
+            "departure": {
+              "name": "Brasilia",
+              "type": "AIRPORT",
+              "code": "SDU",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "RIO",
+              "singleAirport": false
+            },
+            "destination": {
+              "name": "Bogotá",
+              "type": "AIRPORT",
+              "code": "CNF",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "BHZ",
+              "singleAirport": false
+            },
+            "travelPeriod": {
+              "startDate": 1435708800000,
+              "endDate": 1440979200000,
+              "startMonth": "July",
+              "endMonth": "August",
+              "endYear": "2015"
+            },
+            "tripType": "R",
+            "cabinClass": "",
+            "bookingClass": " ",
+            "defaultStay": 7,
+            "listDepartureLocations": [],
+            "listDestinationLocations": [],
+            "isInternationalDeparture": false,
+            "isInternationalDestination": false
+          },
+          "priceInformation": {
+            "price": null,
+            "convertedPrice": null,
+            "points": 123000,
+            "marketCurrencyCode": null,
+            "convertedCurrencyCode": null,
+            "exchangeRate": null,
+            "exchangeDate": null,
+            "installment": {
+              "number": null,
+              "price": null
+            }
+          },
+          "salesPeriod": {
+            "startDate": 1433185200000,
+            "endDate": 1441047600000,
+            "startMonth": "June",
+            "endMonth": "August",
+            "endYear": "2015"
+          },
+          "blackoutPeriods": [],
+          "fareRulesHTML": "Tarifa “a partir de” por trecho",
+          "type": "REGULAR",
+          "priority": 1,
+          "position": null,
+          "revenueFlowURL": "http://wav.tam.com.br:80/TAM_CM/dyn/campaign/selectOffer?B_DATE_1=201507010000&WDS_DOMAIN_NAME=wav.tam.com.br&B_DATE_2=201507080000&LANGUAGE=GB&WDS_MARKET=BR&children=0&SITE=TAMCTAMC&FLAT_OUTBOUND_DATE_RANGE_VALUE=61&TRIP_DURATION=7&adults=1&ENC=439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42&MODE=REV&B_LOCATION_CODE_1=SDU&E_LOCATION_CODE_1=CNF&FLAT_OUTBOUND_DATE=201507010000&TRIP_TYPE=R&infants=0&CURRENCY_CODE=BRL&WDS_OPEN_CALD=true",
+          "redemptionFlowURL": null,
+          "revenueFlowParams": {
+            "B_DATE_1": "201507010000",
+            "WDS_DOMAIN_NAME": "wav.tam.com.br",
+            "B_DATE_2": "201507080000",
+            "B_LOCATION_1": "SDU",
+            "LANGUAGE": "GB",
+            "WDS_MARKET": "BR",
+            "children": "0",
+            "E_LOCATION_1": "CNF",
+            "SITE": "TAMCTAMC",
+            "adults": "1",
+            "ENC": "439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42",
+            "MODE": "REV",
+            "TRIP_TYPE": "R",
+            "infants": "0",
+            "WDS_OPEN_CALD": "true"
+          },
+          "redemptionFlowParams": null,
+          "minimumStay": null,
+          "maximumStay": null,
+          "advancedPurchase": null,
+          "htmlTeaser": ""
+        },
+        {
+          "id": 168,
+          "flightInformation": {
+            "departure": {
+              "name": "8 noite / 9 días",
+              "type": "AIRPORT",
+              "code": "SDU",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "RIO",
+              "singleAirport": false
+            },
+            "destination": {
+              "name": "Miami",
+              "type": "AIRPORT",
+              "code": "CNF",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "BHZ",
+              "singleAirport": false
+            },
+            "travelPeriod": {
+              "startDate": 1435708800000,
+              "endDate": 1440979200000,
+              "startMonth": "July",
+              "endMonth": "August",
+              "endYear": "2015"
+            },
+            "tripType": "R",
+            "cabinClass": "",
+            "bookingClass": " ",
+            "defaultStay": 7,
+            "listDepartureLocations": [],
+            "listDestinationLocations": [],
+            "isInternationalDeparture": false,
+            "isInternationalDestination": false
+          },
+          "priceInformation": {
+            "price": null,
+            "convertedPrice": null,
+            "points": 4026,
+            "marketCurrencyCode": null,
+            "convertedCurrencyCode": null,
+            "exchangeRate": null,
+            "exchangeDate": null,
+            "installment": {
+              "number": null,
+              "price": null
+            }
+          },
+          "salesPeriod": {
+            "startDate": 1433185200000,
+            "endDate": 1441047600000,
+            "startMonth": "June",
+            "endMonth": "August",
+            "endYear": "2015"
+          },
+          "blackoutPeriods": [],
+          "fareRulesHTML": "Tarifa “a partir de” por trecho",
+          "type": "REGULAR",
+          "priority": 1,
+          "position": null,
+          "revenueFlowURL": "http://wav.tam.com.br:80/TAM_CM/dyn/campaign/selectOffer?B_DATE_1=201507010000&WDS_DOMAIN_NAME=wav.tam.com.br&B_DATE_2=201507080000&LANGUAGE=GB&WDS_MARKET=BR&children=0&SITE=TAMCTAMC&FLAT_OUTBOUND_DATE_RANGE_VALUE=61&TRIP_DURATION=7&adults=1&ENC=439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42&MODE=REV&B_LOCATION_CODE_1=SDU&E_LOCATION_CODE_1=CNF&FLAT_OUTBOUND_DATE=201507010000&TRIP_TYPE=R&infants=0&CURRENCY_CODE=BRL&WDS_OPEN_CALD=true",
+          "redemptionFlowURL": null,
+          "revenueFlowParams": {
+            "B_DATE_1": "201507010000",
+            "WDS_DOMAIN_NAME": "wav.tam.com.br",
+            "B_DATE_2": "201507080000",
+            "B_LOCATION_1": "SDU",
+            "LANGUAGE": "GB",
+            "WDS_MARKET": "BR",
+            "children": "0",
+            "E_LOCATION_1": "CNF",
+            "SITE": "TAMCTAMC",
+            "adults": "1",
+            "ENC": "439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42",
+            "MODE": "REV",
+            "TRIP_TYPE": "R",
+            "infants": "0",
+            "WDS_OPEN_CALD": "true"
+          },
+          "redemptionFlowParams": null,
+          "minimumStay": null,
+          "maximumStay": null,
+          "advancedPurchase": null,
+          "htmlTeaser": ""
+        },
+        {
+          "id": 164,
+          "flightInformation": {
+            "departure": {
+              "name": "Recife",
+              "type": "AIRPORT",
+              "code": "SDU",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "RIO",
+              "singleAirport": false
+            },
+            "destination": {
+              "name": "Curitiba",
+              "type": "AIRPORT",
+              "code": "CNF",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "BHZ",
+              "singleAirport": false
+            },
+            "travelPeriod": {
+              "startDate": 1435708800000,
+              "endDate": 1440979200000,
+              "startMonth": "July",
+              "endMonth": "August",
+              "endYear": "2015"
+            },
+            "tripType": "R",
+            "cabinClass": "",
+            "bookingClass": " ",
+            "defaultStay": 7,
+            "listDepartureLocations": [],
+            "listDestinationLocations": [],
+            "isInternationalDeparture": false,
+            "isInternationalDestination": false
+          },
+          "priceInformation": {
+            "price": null,
+            "convertedPrice": null,
+            "points": 7000,
+            "marketCurrencyCode": null,
+            "convertedCurrencyCode": null,
+            "exchangeRate": null,
+            "exchangeDate": null,
+            "installment": {
+              "number": null,
+              "price": null
+            }
+          },
+          "salesPeriod": {
+            "startDate": 1433185200000,
+            "endDate": 1441047600000,
+            "startMonth": "June",
+            "endMonth": "August",
+            "endYear": "2015"
+          },
+          "blackoutPeriods": [],
+          "fareRulesHTML": "Tarifa “a partir de” por trecho",
+          "type": "REGULAR",
+          "priority": 1,
+          "position": null,
+          "revenueFlowURL": "http://wav.tam.com.br:80/TAM_CM/dyn/campaign/selectOffer?B_DATE_1=201507010000&WDS_DOMAIN_NAME=wav.tam.com.br&B_DATE_2=201507080000&LANGUAGE=GB&WDS_MARKET=BR&children=0&SITE=TAMCTAMC&FLAT_OUTBOUND_DATE_RANGE_VALUE=61&TRIP_DURATION=7&adults=1&ENC=439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42&MODE=REV&B_LOCATION_CODE_1=SDU&E_LOCATION_CODE_1=CNF&FLAT_OUTBOUND_DATE=201507010000&TRIP_TYPE=R&infants=0&CURRENCY_CODE=BRL&WDS_OPEN_CALD=true",
+          "redemptionFlowURL": null,
+          "revenueFlowParams": {
+            "B_DATE_1": "201507010000",
+            "WDS_DOMAIN_NAME": "wav.tam.com.br",
+            "B_DATE_2": "201507080000",
+            "B_LOCATION_1": "SDU",
+            "LANGUAGE": "GB",
+            "WDS_MARKET": "BR",
+            "children": "0",
+            "E_LOCATION_1": "CNF",
+            "SITE": "TAMCTAMC",
+            "adults": "1",
+            "ENC": "439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42",
+            "MODE": "REV",
+            "TRIP_TYPE": "R",
+            "infants": "0",
+            "WDS_OPEN_CALD": "true"
+          },
+          "redemptionFlowParams": null,
+          "minimumStay": null,
+          "maximumStay": null,
+          "advancedPurchase": null,
+          "htmlTeaser": ""
+        }
+      ],
+      "fareRulesHTML": null,
+      "salesPeriod": {
+        "startDate": 1423440000000,
+        "endDate": 1482969600000,
+        "startMonth": "February",
+        "endMonth": "December",
+        "endYear": "2016"
+      },
+      "travelPeriod": {
+        "startDate": 1423526400000,
+        "endDate": 1491264000000,
+        "startMonth": "February",
+        "endMonth": "April",
+        "endYear": "2017"
+      },
+      "title": null,
+      "departure": {
+        "name": "Brazil",
+        "type": "COUNTRY",
+        "code": "BR",
+        "airportName": null,
+        "countryCode": "BR",
+        "cityCode": null,
+        "singleAirport": false
+      },
+      "destination": {
+        "name": "Brazil",
+        "type": "COUNTRY",
+        "code": "BR",
+        "airportName": null,
+        "countryCode": "BR",
+        "cityCode": null,
+        "singleAirport": false
+      },
+      "landingPageUrl": "",
+      "status": {
+        "code": 1,
+        "message": "Campaign Id 72 for country site BR has no offer available"
+      }
+    },
+    {
+      "campaignDatesDisplayType": null,
+      "id": 93,
+      "name": "Teste Allan - nao apagar",
+      "offers": [
+        {
+          "id": 164,
+          "flightInformation": {
+            "departure": {
+              "name": "Recife",
+              "type": "AIRPORT",
+              "code": "SDU",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "RIO",
+              "singleAirport": false
+            },
+            "destination": {
+              "name": "Curitiba",
+              "type": "AIRPORT",
+              "code": "CNF",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "BHZ",
+              "singleAirport": false
+            },
+            "travelPeriod": {
+              "startDate": 1435708800000,
+              "endDate": 1440979200000,
+              "startMonth": "July",
+              "endMonth": "August",
+              "endYear": "2015"
+            },
+            "tripType": "R",
+            "cabinClass": "",
+            "bookingClass": " ",
+            "defaultStay": 7,
+            "listDepartureLocations": [],
+            "listDestinationLocations": [],
+            "isInternationalDeparture": false,
+            "isInternationalDestination": false
+          },
+          "priceInformation": {
+            "price": null,
+            "convertedPrice": null,
+            "points": 7000,
+            "marketCurrencyCode": null,
+            "convertedCurrencyCode": null,
+            "exchangeRate": null,
+            "exchangeDate": null,
+            "installment": {
+              "number": null,
+              "price": null
+            }
+          },
+          "salesPeriod": {
+            "startDate": 1433185200000,
+            "endDate": 1441047600000,
+            "startMonth": "June",
+            "endMonth": "August",
+            "endYear": "2015"
+          },
+          "blackoutPeriods": [],
+          "fareRulesHTML": "Tarifa “a partir de” por trecho",
+          "type": "REGULAR",
+          "priority": 1,
+          "position": null,
+          "revenueFlowURL": "http://wav.tam.com.br:80/TAM_CM/dyn/campaign/selectOffer?B_DATE_1=201507010000&WDS_DOMAIN_NAME=wav.tam.com.br&B_DATE_2=201507080000&LANGUAGE=GB&WDS_MARKET=BR&children=0&SITE=TAMCTAMC&FLAT_OUTBOUND_DATE_RANGE_VALUE=61&TRIP_DURATION=7&adults=1&ENC=439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42&MODE=REV&B_LOCATION_CODE_1=SDU&E_LOCATION_CODE_1=CNF&FLAT_OUTBOUND_DATE=201507010000&TRIP_TYPE=R&infants=0&CURRENCY_CODE=BRL&WDS_OPEN_CALD=true",
+          "redemptionFlowURL": null,
+          "revenueFlowParams": {
+            "B_DATE_1": "201507010000",
+            "WDS_DOMAIN_NAME": "wav.tam.com.br",
+            "B_DATE_2": "201507080000",
+            "B_LOCATION_1": "SDU",
+            "LANGUAGE": "GB",
+            "WDS_MARKET": "BR",
+            "children": "0",
+            "E_LOCATION_1": "CNF",
+            "SITE": "TAMCTAMC",
+            "adults": "1",
+            "ENC": "439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42",
+            "MODE": "REV",
+            "TRIP_TYPE": "R",
+            "infants": "0",
+            "WDS_OPEN_CALD": "true"
+          },
+          "redemptionFlowParams": null,
+          "minimumStay": null,
+          "maximumStay": null,
+          "advancedPurchase": null,
+          "htmlTeaser": ""
+        },
+        {
+          "id": 165,
+          "flightInformation": {
+            "departure": {
+              "name": "Curitiba",
+              "type": "AIRPORT",
+              "code": "SDU",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "RIO",
+              "singleAirport": false
+            },
+            "destination": {
+              "name": "Foz de Iguaçu",
+              "type": "AIRPORT",
+              "code": "CNF",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "BHZ",
+              "singleAirport": false
+            },
+            "travelPeriod": {
+              "startDate": 1435708800000,
+              "endDate": 1440979200000,
+              "startMonth": "July",
+              "endMonth": "August",
+              "endYear": "2015"
+            },
+            "tripType": "R",
+            "cabinClass": "",
+            "bookingClass": " ",
+            "defaultStay": 7,
+            "listDepartureLocations": [],
+            "listDestinationLocations": [],
+            "isInternationalDeparture": false,
+            "isInternationalDestination": false
+          },
+          "priceInformation": {
+            "price": null,
+            "convertedPrice": null,
+            "points": 120000,
+            "marketCurrencyCode": null,
+            "convertedCurrencyCode": null,
+            "exchangeRate": null,
+            "exchangeDate": null,
+            "installment": {
+              "number": null,
+              "price": null
+            }
+          },
+          "salesPeriod": {
+            "startDate": 1433185200000,
+            "endDate": 1441047600000,
+            "startMonth": "June",
+            "endMonth": "August",
+            "endYear": "2015"
+          },
+          "blackoutPeriods": [],
+          "fareRulesHTML": "Tarifa “a partir de” por trecho",
+          "type": "REGULAR",
+          "priority": 1,
+          "position": null,
+          "revenueFlowURL": "http://wav.tam.com.br:80/TAM_CM/dyn/campaign/selectOffer?B_DATE_1=201507010000&WDS_DOMAIN_NAME=wav.tam.com.br&B_DATE_2=201507080000&LANGUAGE=GB&WDS_MARKET=BR&children=0&SITE=TAMCTAMC&FLAT_OUTBOUND_DATE_RANGE_VALUE=61&TRIP_DURATION=7&adults=1&ENC=439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42&MODE=REV&B_LOCATION_CODE_1=SDU&E_LOCATION_CODE_1=CNF&FLAT_OUTBOUND_DATE=201507010000&TRIP_TYPE=R&infants=0&CURRENCY_CODE=BRL&WDS_OPEN_CALD=true",
+          "redemptionFlowURL": null,
+          "revenueFlowParams": {
+            "B_DATE_1": "201507010000",
+            "WDS_DOMAIN_NAME": "wav.tam.com.br",
+            "B_DATE_2": "201507080000",
+            "B_LOCATION_1": "SDU",
+            "LANGUAGE": "GB",
+            "WDS_MARKET": "BR",
+            "children": "0",
+            "E_LOCATION_1": "CNF",
+            "SITE": "TAMCTAMC",
+            "adults": "1",
+            "ENC": "439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42",
+            "MODE": "REV",
+            "TRIP_TYPE": "R",
+            "infants": "0",
+            "WDS_OPEN_CALD": "true"
+          },
+          "redemptionFlowParams": null,
+          "minimumStay": null,
+          "maximumStay": null,
+          "advancedPurchase": null,
+          "htmlTeaser": ""
+        },
+        {
+          "id": 166,
+          "flightInformation": {
+            "departure": {
+              "name": "Sao Paulo",
+              "type": "AIRPORT",
+              "code": "SDU",
+              "airportName": "(Guarulhos)",
+              "countryCode": "BR",
+              "cityCode": "RIO",
+              "singleAirport": false
+            },
+            "destination": {
+              "name": "Curitiba",
+              "type": "AIRPORT",
+              "code": "CNF",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "BHZ",
+              "singleAirport": false
+            },
+            "travelPeriod": {
+              "startDate": 1435708800000,
+              "endDate": 1440979200000,
+              "startMonth": "July",
+              "endMonth": "August",
+              "endYear": "2015"
+            },
+            "tripType": "R",
+            "cabinClass": "",
+            "bookingClass": " ",
+            "defaultStay": 7,
+            "listDepartureLocations": [],
+            "listDestinationLocations": [],
+            "isInternationalDeparture": false,
+            "isInternationalDestination": false
+          },
+          "priceInformation": {
+            "price": null,
+            "convertedPrice": null,
+            "points": 2530,
+            "marketCurrencyCode": null,
+            "convertedCurrencyCode": null,
+            "exchangeRate": null,
+            "exchangeDate": null,
+            "installment": {
+              "number": null,
+              "price": null
+            }
+          },
+          "salesPeriod": {
+            "startDate": 1433185200000,
+            "endDate": 1441047600000,
+            "startMonth": "June",
+            "endMonth": "August",
+            "endYear": "2015"
+          },
+          "blackoutPeriods": [],
+          "fareRulesHTML": "Tarifa “a partir de” por trecho",
+          "type": "REGULAR",
+          "priority": 1,
+          "position": null,
+          "revenueFlowURL": "http://wav.tam.com.br:80/TAM_CM/dyn/campaign/selectOffer?B_DATE_1=201507010000&WDS_DOMAIN_NAME=wav.tam.com.br&B_DATE_2=201507080000&LANGUAGE=GB&WDS_MARKET=BR&children=0&SITE=TAMCTAMC&FLAT_OUTBOUND_DATE_RANGE_VALUE=61&TRIP_DURATION=7&adults=1&ENC=439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42&MODE=REV&B_LOCATION_CODE_1=SDU&E_LOCATION_CODE_1=CNF&FLAT_OUTBOUND_DATE=201507010000&TRIP_TYPE=R&infants=0&CURRENCY_CODE=BRL&WDS_OPEN_CALD=true",
+          "redemptionFlowURL": null,
+          "revenueFlowParams": {
+            "B_DATE_1": "201507010000",
+            "WDS_DOMAIN_NAME": "wav.tam.com.br",
+            "B_DATE_2": "201507080000",
+            "B_LOCATION_1": "SDU",
+            "LANGUAGE": "GB",
+            "WDS_MARKET": "BR",
+            "children": "0",
+            "E_LOCATION_1": "CNF",
+            "SITE": "TAMCTAMC",
+            "adults": "1",
+            "ENC": "439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42",
+            "MODE": "REV",
+            "TRIP_TYPE": "R",
+            "infants": "0",
+            "WDS_OPEN_CALD": "true"
+          },
+          "redemptionFlowParams": null,
+          "minimumStay": null,
+          "maximumStay": null,
+          "advancedPurchase": null,
+          "htmlTeaser": ""
+        },
+        {
+          "id": 167,
+          "flightInformation": {
+            "departure": {
+              "name": "Brasilia",
+              "type": "AIRPORT",
+              "code": "SDU",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "RIO",
+              "singleAirport": false
+            },
+            "destination": {
+              "name": "Bogotá",
+              "type": "AIRPORT",
+              "code": "CNF",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "BHZ",
+              "singleAirport": false
+            },
+            "travelPeriod": {
+              "startDate": 1435708800000,
+              "endDate": 1440979200000,
+              "startMonth": "July",
+              "endMonth": "August",
+              "endYear": "2015"
+            },
+            "tripType": "R",
+            "cabinClass": "",
+            "bookingClass": " ",
+            "defaultStay": 7,
+            "listDepartureLocations": [],
+            "listDestinationLocations": [],
+            "isInternationalDeparture": false,
+            "isInternationalDestination": false
+          },
+          "priceInformation": {
+            "price": null,
+            "convertedPrice": null,
+            "points": 350,
+            "marketCurrencyCode": null,
+            "convertedCurrencyCode": null,
+            "exchangeRate": null,
+            "exchangeDate": null,
+            "installment": {
+              "number": null,
+              "price": null
+            }
+          },
+          "salesPeriod": {
+            "startDate": 1433185200000,
+            "endDate": 1441047600000,
+            "startMonth": "June",
+            "endMonth": "August",
+            "endYear": "2015"
+          },
+          "blackoutPeriods": [],
+          "fareRulesHTML": "Tarifa “a partir de” por trecho",
+          "type": "REGULAR",
+          "priority": 1,
+          "position": null,
+          "revenueFlowURL": "http://wav.tam.com.br:80/TAM_CM/dyn/campaign/selectOffer?B_DATE_1=201507010000&WDS_DOMAIN_NAME=wav.tam.com.br&B_DATE_2=201507080000&LANGUAGE=GB&WDS_MARKET=BR&children=0&SITE=TAMCTAMC&FLAT_OUTBOUND_DATE_RANGE_VALUE=61&TRIP_DURATION=7&adults=1&ENC=439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42&MODE=REV&B_LOCATION_CODE_1=SDU&E_LOCATION_CODE_1=CNF&FLAT_OUTBOUND_DATE=201507010000&TRIP_TYPE=R&infants=0&CURRENCY_CODE=BRL&WDS_OPEN_CALD=true",
+          "redemptionFlowURL": null,
+          "revenueFlowParams": {
+            "B_DATE_1": "201507010000",
+            "WDS_DOMAIN_NAME": "wav.tam.com.br",
+            "B_DATE_2": "201507080000",
+            "B_LOCATION_1": "SDU",
+            "LANGUAGE": "GB",
+            "WDS_MARKET": "BR",
+            "children": "0",
+            "E_LOCATION_1": "CNF",
+            "SITE": "TAMCTAMC",
+            "adults": "1",
+            "ENC": "439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42",
+            "MODE": "REV",
+            "TRIP_TYPE": "R",
+            "infants": "0",
+            "WDS_OPEN_CALD": "true"
+          },
+          "redemptionFlowParams": null,
+          "minimumStay": null,
+          "maximumStay": null,
+          "advancedPurchase": null,
+          "htmlTeaser": ""
+        },
+        {
+          "id": 168,
+          "flightInformation": {
+            "departure": {
+              "name": "8 noite / 9 días",
+              "type": "AIRPORT",
+              "code": "SDU",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "RIO",
+              "singleAirport": false
+            },
+            "destination": {
+              "name": "Miami",
+              "type": "AIRPORT",
+              "code": "CNF",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "BHZ",
+              "singleAirport": false
+            },
+            "travelPeriod": {
+              "startDate": 1435708800000,
+              "endDate": 1440979200000,
+              "startMonth": "July",
+              "endMonth": "August",
+              "endYear": "2015"
+            },
+            "tripType": "R",
+            "cabinClass": "",
+            "bookingClass": " ",
+            "defaultStay": 7,
+            "listDepartureLocations": [],
+            "listDestinationLocations": [],
+            "isInternationalDeparture": false,
+            "isInternationalDestination": false
+          },
+          "priceInformation": {
+            "price": null,
+            "convertedPrice": null,
+            "points": 2340,
+            "marketCurrencyCode": null,
+            "convertedCurrencyCode": null,
+            "exchangeRate": null,
+            "exchangeDate": null,
+            "installment": {
+              "number": null,
+              "price": null
+            }
+          },
+          "salesPeriod": {
+            "startDate": 1433185200000,
+            "endDate": 1441047600000,
+            "startMonth": "June",
+            "endMonth": "August",
+            "endYear": "2015"
+          },
+          "blackoutPeriods": [],
+          "fareRulesHTML": "Tarifa “a partir de” por trecho",
+          "type": "REGULAR",
+          "priority": 1,
+          "position": null,
+          "revenueFlowURL": "http://wav.tam.com.br:80/TAM_CM/dyn/campaign/selectOffer?B_DATE_1=201507010000&WDS_DOMAIN_NAME=wav.tam.com.br&B_DATE_2=201507080000&LANGUAGE=GB&WDS_MARKET=BR&children=0&SITE=TAMCTAMC&FLAT_OUTBOUND_DATE_RANGE_VALUE=61&TRIP_DURATION=7&adults=1&ENC=439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42&MODE=REV&B_LOCATION_CODE_1=SDU&E_LOCATION_CODE_1=CNF&FLAT_OUTBOUND_DATE=201507010000&TRIP_TYPE=R&infants=0&CURRENCY_CODE=BRL&WDS_OPEN_CALD=true",
+          "redemptionFlowURL": null,
+          "revenueFlowParams": {
+            "B_DATE_1": "201507010000",
+            "WDS_DOMAIN_NAME": "wav.tam.com.br",
+            "B_DATE_2": "201507080000",
+            "B_LOCATION_1": "SDU",
+            "LANGUAGE": "GB",
+            "WDS_MARKET": "BR",
+            "children": "0",
+            "E_LOCATION_1": "CNF",
+            "SITE": "TAMCTAMC",
+            "adults": "1",
+            "ENC": "439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42",
+            "MODE": "REV",
+            "TRIP_TYPE": "R",
+            "infants": "0",
+            "WDS_OPEN_CALD": "true"
+          },
+          "redemptionFlowParams": null,
+          "minimumStay": null,
+          "maximumStay": null,
+          "advancedPurchase": null,
+          "htmlTeaser": ""
+        },
+        {
+          "id": 164,
+          "flightInformation": {
+            "departure": {
+              "name": "Recife",
+              "type": "AIRPORT",
+              "code": "SDU",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "RIO",
+              "singleAirport": false
+            },
+            "destination": {
+              "name": "Curitiba",
+              "type": "AIRPORT",
+              "code": "CNF",
+              "airportName": "",
+              "countryCode": "BR",
+              "cityCode": "BHZ",
+              "singleAirport": false
+            },
+            "travelPeriod": {
+              "startDate": 1435708800000,
+              "endDate": 1440979200000,
+              "startMonth": "July",
+              "endMonth": "August",
+              "endYear": "2015"
+            },
+            "tripType": "R",
+            "cabinClass": "",
+            "bookingClass": " ",
+            "defaultStay": 7,
+            "listDepartureLocations": [],
+            "listDestinationLocations": [],
+            "isInternationalDeparture": false,
+            "isInternationalDestination": false
+          },
+          "priceInformation": {
+            "price": null,
+            "convertedPrice": null,
+            "points": 7000,
+            "marketCurrencyCode": null,
+            "convertedCurrencyCode": null,
+            "exchangeRate": null,
+            "exchangeDate": null,
+            "installment": {
+              "number": null,
+              "price": null
+            }
+          },
+          "salesPeriod": {
+            "startDate": 1433185200000,
+            "endDate": 1441047600000,
+            "startMonth": "June",
+            "endMonth": "August",
+            "endYear": "2015"
+          },
+          "blackoutPeriods": [],
+          "fareRulesHTML": "Tarifa “a partir de” por trecho",
+          "type": "REGULAR",
+          "priority": 1,
+          "position": null,
+          "revenueFlowURL": "http://wav.tam.com.br:80/TAM_CM/dyn/campaign/selectOffer?B_DATE_1=201507010000&WDS_DOMAIN_NAME=wav.tam.com.br&B_DATE_2=201507080000&LANGUAGE=GB&WDS_MARKET=BR&children=0&SITE=TAMCTAMC&FLAT_OUTBOUND_DATE_RANGE_VALUE=61&TRIP_DURATION=7&adults=1&ENC=439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42&MODE=REV&B_LOCATION_CODE_1=SDU&E_LOCATION_CODE_1=CNF&FLAT_OUTBOUND_DATE=201507010000&TRIP_TYPE=R&infants=0&CURRENCY_CODE=BRL&WDS_OPEN_CALD=true",
+          "redemptionFlowURL": null,
+          "revenueFlowParams": {
+            "B_DATE_1": "201507010000",
+            "WDS_DOMAIN_NAME": "wav.tam.com.br",
+            "B_DATE_2": "201507080000",
+            "B_LOCATION_1": "SDU",
+            "LANGUAGE": "GB",
+            "WDS_MARKET": "BR",
+            "children": "0",
+            "E_LOCATION_1": "CNF",
+            "SITE": "TAMCTAMC",
+            "adults": "1",
+            "ENC": "439E6DC77EDF8560AC8106DFFEEE52E6C191B1E227F80742F6E90352658C7D42",
+            "MODE": "REV",
+            "TRIP_TYPE": "R",
+            "infants": "0",
+            "WDS_OPEN_CALD": "true"
+          },
+          "redemptionFlowParams": null,
+          "minimumStay": null,
+          "maximumStay": null,
+          "advancedPurchase": null,
+          "htmlTeaser": ""
+        }
+      ],
+      "fareRulesHTML": null,
+      "salesPeriod": {
+        "startDate": 1436313600000,
+        "endDate": 1439240400000,
+        "startMonth": "July",
+        "endMonth": "August",
+        "endYear": "2015"
+      },
+      "travelPeriod": {
+        "startDate": 1436313600000,
+        "endDate": 1439164800000,
+        "startMonth": "July",
+        "endMonth": "August",
+        "endYear": "2015"
+      },
+      "title": null,
+      "departure": {
+        "name": "Brazil",
+        "type": "COUNTRY",
+        "code": "BR",
+        "airportName": null,
+        "countryCode": "BR",
+        "cityCode": null,
+        "singleAirport": false
+      },
+      "destination": {
+        "name": "Brazil",
+        "type": "COUNTRY",
+        "code": "BR",
+        "airportName": null,
+        "countryCode": "BR",
+        "cityCode": null,
+        "singleAirport": false
+      },
+      "landingPageUrl": "",
+      "status": {
+        "code": 1,
+        "message": "Campaign Id 93 for country site BR has no offer available"
+      }
+    }
+  ]
+}

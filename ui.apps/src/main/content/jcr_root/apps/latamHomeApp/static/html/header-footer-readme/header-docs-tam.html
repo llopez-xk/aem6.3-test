@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Header - Footer LAN/TAM implementation docs</title>
+  <!-- Modernizr -->
+  <script src="scripts/vendor/modernizr.custom.29478.js" type="text/javascript"></script>
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://getbootstrap.com/assets/css/docs.min.css">
+  <!-- LATAM web guide lines -->
+  <link rel="stylesheet" href="css/tam.css">
+  <link rel="stylesheet" href="css/main-tam.css">
+  <link rel="stylesheet" href="css/header-tam.css">
+</head>
+<body id="ng-app" ng-app="app">
+    <header
+      class="Header"
+      header
+      template-header="scripts/app/views/header.html"
+      template-nav="scripts/app/views/nav.html"
+      template-countryselector="scripts/app/views/countryselector.html"
+      template-login="scripts/app/views/login.html"
+      role="banner"
+      logo="assets/images/content-image/header/tam.png"
+      logo-desktop="assets/images/content-image/header/tam-logo.png"
+      ng-controller="HeaderCtrl"
+      tam="true"
+      inverse="true"
+      >
+    </header>
+
+      <!-- jQuery -->
+      <script src="/static/latam/scripts/external/jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
+
+      <!-- Angular -->
+      <!--[if lt IE 9]> <script src="bower_components/angularjs-ie8-build/dist/angular.min.js"></script> <![endif]-->
+      <!--[if gt IE 8]><!--> <script src="bower_components/angular/angular.min.js" type="text/javascript"></script> <!--<![endif]-->
+      <script src="bower_components/angular-animate/angular-animate.min.js" type="text/javascript"></script>
+      <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+      <script src="/static/latam/scripts/external/angular-cookies/angular-cookies.min.js"></script>
+
+      <!-- Angular Apps -->
+      <script src="scripts/app/app.js" type="text/javascript"></script>
+
+      <!-- Angular Services -->
+      <script src="scripts/app/services/dataLogin.js" type="text/javascript"></script>
+
+      <!-- Header directives -->
+      <script src="scripts/app/directives/header.js" type="text/javascript"></script>
+      <script src="scripts/app/directives/nav.js"    type="text/javascript"></script>
+      <script src="scripts/app/directives/countrySelector.js" type="text/javascript"></script>
+      <script src="scripts/app/directives/footer.js" type="text/javascript"></script>
+      <script src="scripts/app/directives/login.js" type="text/javascript"></script>
+      <script src="scripts/app/controllers/HeaderCtrl.js" type="text/javascript"></script>
+</body>
+</html>

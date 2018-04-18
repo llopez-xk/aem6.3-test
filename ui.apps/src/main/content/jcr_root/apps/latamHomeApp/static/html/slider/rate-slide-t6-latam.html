@@ -1,0 +1,52 @@
+<div class="HomeSlider-container" ng-class="::{ 'HomeSlider-container--dark': titleDark }">
+    <div class="container HomeSlider-zonesContainer">
+        <div class="HomeSlider-zone HomeSlider-zone--top">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-4 col-md-7 col-md-offset-4 HomeSlider-topCols">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-zone--innerTop HomeSlider-tableCell {{ ::titleAlign }}">
+                                <h3 class="HomeSlider-title" ng-class="::{ 'HomeSlider-title--dark': titleDark }">
+                                    {{ ::title }}
+                  <span class="HomeSlider-price" ng-hide="(!rate.pricing.primary.amount && !amount)">
+                    <span class="HomeSlider-priceCurrency" ng-class="::{'HomeSlider-priceCurrency--right': currencyLeft.indexOf( rate.pricing.primary.currency || currency ) == -1}" ng-bind="rate.pricing.primary.currencyDisplay || currency"></span>
+                    <span class="HomeSlider-priceAmount" ng-bind="(rate.pricing.primary.amountDisplay || amount)"></span>
+                  </span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="HomeSlider-zone HomeSlider-zone--middle">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-4 col-md-7 col-md-offset-4 HomeSlider-middleCols">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-description HomeSlider-zone--middle HomeSlider-tableCell {{ ::descriptionAlign }}" ng-class="::{ 'HomeSlider-description--dark': titleDark }">
+                                <p class="HomeSlider-descriptionText">{{ ::description }}</p>
+                                <a class="HomeSlider-conditions fourth-level flat-large" href="{{ ::rate.link }}" ng-if="::rateConditions" ng-bind="::rateConditions"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="HomeSlider-zone HomeSlider-zone--bottom">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-4 col-md-7 col-md-offset-4 HomeSlider-bottomCols">
+                    <div class="HomeSlider-table">
+                        <div class="HomeSlider-tableRow">
+                            <div class="HomeSlider-tableCell {{ ::buttonAlign }}">
+                                <a href="{{ ::buttonLink }}" class="HomeSlider-button btn-flat flat-medium third-level third-negative" target="{{buttonLinkBlank}}">
+                  					<span class="HomeSlider-buttonText" ng-bind="::buttonText"></span>
+                				</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

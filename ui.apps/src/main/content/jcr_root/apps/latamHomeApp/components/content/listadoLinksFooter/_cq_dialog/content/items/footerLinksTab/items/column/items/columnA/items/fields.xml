@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Widget"
+    anchor="95%"
+    fieldDescription="7 items maximum"
+    fieldLabel="Links configuration"
+    name="./fieldsColumnA"
+    xtype="latammultifield">
+    <fieldConfig
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/form/fieldset"
+        acs-commons-nested="">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+            method="absolute"/>
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <isTitle
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                        name="istitle"/>
+                    <link
+                        jcr:primaryType="nt:unstructured"
+                        anchor="95%"
+                        key="link"
+                        name="./link"
+                        pathAllowBlank="{Boolean}false"
+                        textAllowBlank="{Boolean}false"
+                        titleAllowBlank="{Boolean}false"
+                        xtype="latamlink"/>
+                    <title
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldDescription="Enter a text"
+                        fieldLabel="Text"/>
+                </items>
+            </column>
+        </items>
+    </fieldConfig>
+</jcr:root>

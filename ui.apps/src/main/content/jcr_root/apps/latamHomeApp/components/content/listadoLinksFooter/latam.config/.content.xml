@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    algo="Desde el config"
+    links="[{&quot;link&quot;:&quot;/content/latam/en&quot;\,&quot;text&quot;:&quot;1A-config&quot;\,&quot;title&quot;:&quot;Uno A&quot;\,&quot;target@Delete&quot;:&quot;&quot;\,&quot;openinnewwindow@Delete&quot;:&quot;_self&quot;},{&quot;link&quot;:&quot;/content/latam/en&quot;\,&quot;text&quot;:&quot;1B-config&quot;\,&quot;title&quot;:&quot;Uno B&quot;\,&quot;target@Delete&quot;:&quot;&quot;\,&quot;openinnewwindow@Delete&quot;:&quot;_self&quot;},{&quot;link&quot;:&quot;/content/latam/en&quot;\,&quot;text&quot;:&quot;1C-config&quot;\,&quot;title&quot;:&quot;Uno C&quot;\,&quot;target@Delete&quot;:&quot;&quot;\,&quot;openinnewwindow@Delete&quot;:&quot;_self&quot;}]"
+    test="done"/>

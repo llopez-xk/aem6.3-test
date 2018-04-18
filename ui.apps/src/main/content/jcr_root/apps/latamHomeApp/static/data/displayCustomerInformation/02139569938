@@ -1,0 +1,17 @@
+{
+    "customerInformation" : {
+        "firstName":"Bruno", 
+        "lastName":"Baptista", 
+        "gender":"M", 
+        "pointsBalance":250,
+        "isFid": false, 
+        "isEBuyer": true,
+        "isMultiplus": true,
+        "loyaltyTier": "PREMIUM"
+    }, 
+    "serviceStatus" : {
+        "code":0, 
+        "message":"", 
+        "nativeMessage":""
+    }
+}

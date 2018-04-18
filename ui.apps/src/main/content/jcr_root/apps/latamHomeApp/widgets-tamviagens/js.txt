@@ -1,0 +1,9 @@
+#base=js
+
+Latam.js
+
+latammultifield.js
+latammulticolumn.js
+latamrichtext.js
+latamlink.js
+latamkeyvalue.js

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Header - Footer LAN/TAM implementation docs</title>
+  <!-- Modernizr -->
+  <script src="scripts/vendor/modernizr.custom.29478.js" type="text/javascript"></script>
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://getbootstrap.com/assets/css/docs.min.css">
+  <link rel="stylesheet" href="css/header-lan.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="overview" class="page-header">Overview</h1>
+        <p class="lead">Below is the technical description to implement the Header component for LAN/TAM in any application outsite AEM</p>
+
+        <h2 id="overview-doctype">Installation and dependencies</h2>
+        <p>In order to implement the Header Component, the user should follow a few steps to sucefully install the component in other pages than the ones on AEM.<br>The Header Component has been writen entirely in Angular Directives, this technique let us self contain all the assets/logic/markup for a component, creating an unique package that can be used everywhere.  but the user will need to include the next libraries in order to work properly.</p>
+
+        <h3>External Javascript Libraries</h3>
+        <div class="highlight">
+          <ul>
+            <li><a href="scripts/vendor/modernizr.custom.29478.js">Modernzr</a></li>
+            <li><a href="/static/latam/scripts/external/jquery/jquery-1.11.1.min.js"> Jquery</a></li>
+            <li><a href="bower_components/angular/angular.min.js"> Angular</a></li>
+            <li><a href="bower_components/angularjs-ie8-build/dist/angular.min.js"> Angular IE8 build</a></li>
+            <li><a href="bower_components/angular-animate/angular-animate.min.js"> Angular Animate</a></li>
+            <li><a href="bower_components/angular-sanitize/angular-sanitize.min.js"> Angular Sanitize</a></li>
+            <li><a href="/static/latam/scripts/external/angular-cookies/angular-cookies.min.js"> Angular Cookies</a></li>
+          </ul>
+        </div>
+
+        <h3>Header javascript libraries</h3>
+        <div class="highlight">
+          <ul>
+            <li> <a href="scripts/app/app.js">app.js</a></li>
+            <li> <a href="scripts/app/services/dataLogin.js">dataLogin.js</a></li>
+            <li> <a href="scripts/app/directives/header.js" type="text/javascript">header.js</a></li>
+            <li> <a href="scripts/app/directives/nav.js"    type="text/javascript">nav.js</a></li>
+            <li> <a href="scripts/app/directives/countrySelector.js" type="text/javascript">countrySelector.js</a></li>
+            <li> <a href="scripts/app/directives/footer.js" type="text/javascript">footer.js</a></li>
+            <li> <a href="scripts/app/directives/login.js" type="text/javascript">login.js</a></li>
+            <li> <a href="scripts/app/controllers/HeaderCtrl.js" type="text/javascript">HeaderCtrl.js</a></li>
+          </ul>
+        </div>
+
+        <h3>Styles</h3>
+        <div class="highlight">
+          <ul>
+            <li> <a href="bower_components/bootstrap/dist/css/bootstrap.min.css">bootstrap.min.css</a></li>
+            <li> <a href="css/lan.css">lan.css</a> or <a href="css/tam.css">tam.css</a>, these files are defined in the LATAM Bootstrap framework</li>
+            <li> <a href="css/footer-lan.css">footer-lan.css</a> or <a href="css/footer-tam.css">footer-tam.css</a></li>
+            <li> <a href="css/header-lan.css">header-lan.css</a> or <a href="css/header-tam.css">header-tam.css</a></li>
+          </ul>
+        </div>
+
+        <p>Below is an example of how to include these files</p>
+        <div class="highlight">
+          <pre>
+            <code class="language-html" data-lang="html">
+              <span class="cp">&lt;!DOCTYPE html&gt;</span>
+              <span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+              <span class="nt">&lt;head&gt;</span>
+
+                <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"css/bootstrap.min.css"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"css/header-tam.css"</span><span class="nt">&gt;</span>
+
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"scripts/modernzr.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+              <span class="nt">&lt;/head&gt;</span>
+
+              <span class="nt">&lt;body&gt;</span>
+                <span class="nt">&lt;header implementation goes here&gt;</span>
+
+                ... your app code
+
+                <span class="nt">&lt;footer implementation goes here&gt;</span>
+
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"/static/latam/scripts/external/jquery/jquery-1.11.1.min.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+
+                <span class="nt">&lt;</span>!-- Angular --<span class="nt">&gt;</span>
+                <span class="nt">&lt;</span></span>!--[if lt IE 9]<span class="nt">&gt;</span> <span class="nt">&lt;</span>script</span> src="bower_components/angularjs-ie8-build/dist/angular.min.js"<span class="nt">&gt;</span><span class="nt">&lt;</span>/script<span class="nt">&gt;</span> <span class="nt">&lt;</span>![endif]--<span class="nt">&gt;</span>
+                <span class="nt">&lt;</span>!--[if gt IE 8]<span class="nt">&gt;</span><span class="nt">&lt;</span>!--<span class="nt">&gt;</span><span class="nt">&lt;script</span> src="bower_components/angular/angular.min.js" type="text/javascript"<span class="nt">&gt;</span><span class="nt">&lt;</span>/script<span class="nt">&gt;</span> <span class="nt">&lt;</span>!--<![endif]--<span class="nt">&gt;</span>
+
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"/static/latam/scripts/external/angular-cookies/angular-cookies.min.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"bower_components/angular-animate/angular-animate.min.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"bower_components/angular-sanitize/angular-sanitize.min.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"scripts/app/app.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"scripts/app/services/dataLoad.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"scripts/app/directives/header.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"scripts/app/directives/nav.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"scripts/app/directives/countrySelector.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"scripts/app/directives/footer.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"scripts/app/directives/login.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+                <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"scripts/app/directives/HeaderCtrl.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+
+                <span class="nt">&lt;/body&gt;</span>
+              <span class="nt">&lt;/html&gt;</span>
+            </code>
+          </pre>
+        </div>
+        <p>It is extremely necessary that you inject these libraries into your application, otherwise, the header will not work</p>
+
+        <br>
+        <br>
+        <br>
+
+        <h2 id="overview-doctype">Implementation</h2>
+        <p>The Footer / Header components are self contained directives as said before, so they act like <b>tags</b> that will be replaced with the appropiated markup and styles<br>in this case, the tag element for header and footer have a few variables (that are used as an html tag attributes) that will be used as a "configuration" for the component itself</p>
+
+        <h3>Header implementation</h3>
+        <p>The header implementation should be with the <span>&lt;</span>header<span>&gt;</span><span>&lt;</span>/header<span>&gt;</span> tag with a class 'Header' and the attribute header as below</p>
+
+        <div class="highlight">
+          <pre>
+            <code class="language-html" data-lang="html">
+              <span class="nt">&lt;header class="Header" header&gt;</span>
+            </code>
+          </pre>
+        </div>
+
+        <p>This tag have some required attributes that you have to pass in order to instantate the Header component. here is the full list of parameters</p>
+
+        <table class="table table-hover">
+          <tbody>
+            <tr>
+              <th>Parameter</th>
+              <th>Description</th>
+              <th>Required</th>
+            </tr>
+            <tr>
+              <td>header</td>
+              <td>Tell Angular to inject the header subcomponents inside this tag</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>template-header</td>
+              <td>Set the header container url template, for this demo, the template is in 'scripts/app/views/header.html', but the AEM backend team will provide this URL</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>template-nav</td>
+              <td>Set the nav template, for this demo, the template is in 'scripts/app/views/nav.html', but the AEM backend team will provide this URL</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>template-countrySelector</td>
+              <td>Set the countrySelector template, for this demo, the template is in 'scripts/app/views/countryselector.html', but the AEM backend team will provide this URL</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>template-login</td>
+              <td>Set the login template, for this demo, the template is in 'scripts/app/views/login.html', but the AEM backend team will provide this URL</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>role</td>
+              <td>Indicate the ROLE for this component, for accesibilty purpose</td>
+              <td>NO</td>
+            </tr>
+            <tr>
+              <td>logo</td>
+              <td>An URL for the logo that will be used on mobile version, in this case the logo image is in 'assets/images/content-image/header/logo_lancom.png'</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>logo-desktop</td>
+              <td>An URL for the logo that will be used on desktop version, in this case the logo image is in 'assets/images/content-image/header/lancom.png'</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>inverse</td>
+              <td>true or false, indicates if you want to use the 'Paginas fijas' version or the 'Home Header' version</td>
+              <td>NO</td>
+            </tr>
+            <tr>
+              <td>tam</td>
+              <td>true if you want to use the Header with styles for TAM (you have to include the header-tam.css file)</td>
+              <td>NO</td>
+            </tr>
+            <tr>
+              <td>process</td>
+              <td>true if you want to use the 'Header de procesos' version of the component</td>
+              <td>NO</td>
+            </tr>
+            <tr>
+              <td>ng-controller</td>
+              <td>Indicates what will be the controller for the template. should be set to HeaderCtrl</td>
+              <td>YES</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+        <p>An example of the implementation can be:  what this do is to instante the Header component with the TAM styles and the 'Paginas Fijas' look & feel </p>
+
+        <div class="highlight">
+          <pre>
+            <code class="language-html" data-lang="html">
+              <span class="nt">&lt;header</span>
+                <span class="na">template-header=</span><span class="s">"scripts/app/views/header.html"</span>
+                <span class="na">template-nav=</span><span class="s">"scripts/app/views/nav.html"</span>
+                <span class="na">template-countryselector=</span><span class="s">"scripts/app/views/countryselector.html"</span>
+                <span class="na">template-login=</span><span class="s">"scripts/app/views/login.html"</span>
+                <span class="na">logo=</span><span class="s">"assets/images/content-image/header/lancom.png"</span>
+                <span class="na">logo-desktop=</span><span class="s">"assets/images/content-image/header/logo_lancom.png"</span>
+                <span class="na">ng-controller=</span><span class="s">"HeaderCtrl"</span>
+                <span class="na">inverse=</span><span class="s">"true"</span>
+                <span class="na">tam=</span><span class="s">"true"</span>
+              <span class="nt">&gt;</span><span class="nt">&lt;/header</span><span class="nt">&gt;</span>
+            </code>
+          </pre>
+        </div>
+        <a href="header-docs-tam.html">Demo</a>
+
+        <br>
+        <p>Here is an example of the Header Home version for LAN  </p>
+
+        <div class="highlight">
+          <pre>
+            <code class="language-html" data-lang="html">
+              <span class="nt">&lt;header</span>
+                <span class="na">template-header=</span><span class="s">"scripts/app/views/header.html"</span>
+                <span class="na">template-nav=</span><span class="s">"scripts/app/views/nav.html"</span>
+                <span class="na">template-countryselector=</span><span class="s">"scripts/app/views/countryselector.html"</span>
+                <span class="na">template-login=</span><span class="s">"scripts/app/views/login.html"</span>
+                <span class="na">logo=</span><span class="s">"assets/images/content-image/header/lancom.png"</span>
+                <span class="na">logo-desktop=</span><span class="s">"assets/images/content-image/header/logo_lancom.png"</span>
+                <span class="na">ng-controller=</span><span class="s">"HeaderCtrl"</span>
+              <span class="nt">&gt;</span><span class="nt">&lt;/header</span><span class="nt">&gt;</span>
+
+            </code>
+          </pre>
+        </div>
+        <a href="header-docs-lan.html">Demo</a>
+
+        <br>
+        <p>Here is an example of the Header Process version for TAM  </p>
+
+        <div class="highlight">
+          <pre>
+            <code class="language-html" data-lang="html">
+              <span class="nt">&lt;header</span>
+                <span class="na">template-header=</span><span class="s">"scripts/app/views/header.html"</span>
+                <span class="na">template-nav=</span><span class="s">"scripts/app/views/nav.html"</span>
+                <span class="na">template-countryselector=</span><span class="s">"scripts/app/views/countryselector.html"</span>
+                <span class="na">template-login=</span><span class="s">"scripts/app/views/login.html"</span>
+                <span class="na">logo=</span><span class="s">"assets/images/content-image/header/lancom.png"</span>
+                <span class="na">logo-desktop=</span><span class="s">"assets/images/content-image/header/logo_lancom.png"</span>
+                <span class="na">ng-controller=</span><span class="s">"HeaderCtrl"</span>
+                <span class="na">inverse=</span><span class="s">"true"</span>
+                <span class="na">tam=</span><span class="s">"true"</span>
+                <span class="na">process=</span><span class="s">"true"</span>
+              <span class="nt">&gt;</span><span class="nt">&lt;/header</span><span class="nt">&gt;</span>
+            </code>
+          </pre>
+        </div>
+        <a href="header-docs-tam-procesos.html">Demo</a>
+
+        <br>
+        <br>
+        <br>
+
+        <h3>Footer implementation</h3>
+        <p>The footer implementation should be with the <span>&lt;</span>div<span>&gt;</span><span>&lt;</span>/div<span>&gt;</span> tag with a class 'FooterComponent' and the attribute footer as below</p>
+
+        <div class="highlight">
+          <pre>
+            <code class="language-html" data-lang="html">
+              <span class="nt">&lt;div footer class="FooterComponent"&gt;</span>
+            </code>
+          </pre>
+        </div>
+        <p>The footer also have a few parameters that setup the footer depending on what you will need for your application.</p>
+
+        <table class="table table-hover">
+          <tbody>
+            <tr>
+              <th>Parameter</th>
+              <th>Description</th>
+              <th>Required</th>
+            </tr>
+            <tr>
+              <td>footer</td>
+              <td>Tell Angular to inject the footer subcomponents inside this tag</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>template-url</td>
+              <td>Tell Angular where to find the markup for the footer, this URL will be provided by the AEM team</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>tam</td>
+              <td>true if you want to load the elements for TAM</td>
+              <td>NO</td>
+            </tr>
+            <tr>
+              <td>process</td>
+              <td>true if you want to load 'Footer procesos' version</td>
+              <td>NO</td>
+            </tr>
+            <tr>
+              <td>payment</td>
+              <td>true if you want to include the payment markup on the footer</td>
+              <td>NO</td>
+            </tr>
+
+          </tbody>
+        </table>
+        <br>
+        <p>Here is an example of how to include the complete version of the footer for TAM</p>
+        <div class="highlight">
+          <pre>
+            <code class="language-html" data-lang="html">
+              <span class="nt">&lt;footer</span>
+                <span class="na">template-url=</span><span class="s">"scripts/app/views/footer.html"</span>
+                <span class="na">tam=</span><span class="s">"true"</span>
+                <span class="na">payment=</span><span class="s">"true"</span>
+              <span class="nt">&gt;</span><span class="nt">&lt;/footer</span><span class="nt">&gt;</span>
+            </code>
+          </pre>
+        </div>
+        <a href="footer-docs-tam.html">Demo</a>
+
+        <br>
+        <p>Here is an example of how to include the 'Footer de procesos' version</p>
+        <div class="highlight">
+          <pre>
+            <code class="language-html" data-lang="html">
+              <span class="nt">&lt;footer</span>
+                <span class="na">template-url=</span><span class="s">"scripts/app/views/footer.html"</span>
+                <span class="na">tam=</span><span class="s">"true"</span>
+                <span class="na">process=</span><span class="s">"true"</span>
+                <span class="na">payment=</span><span class="s">"true"</span>
+              <span class="nt">&gt;</span><span class="nt">&lt;/footer</span><span class="nt">&gt;</span>
+            </code>
+          </pre>
+        </div>
+        <a href="footer-docs-tam-procesos.html">Demo</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="/static/latam/scripts/external/jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
+</body>
+</html>
